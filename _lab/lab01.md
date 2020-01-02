@@ -1,6 +1,6 @@
 ---
-assigned: 2020-01-10 09:00
 desc: 'Crunching numbers: Loops and functions '
+assigned: 2020-01-10 09:00
 due: 2020-01-17 23:59
 layout: lab
 num: lab01

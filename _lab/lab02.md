@@ -1,6 +1,6 @@
 ---
-assigned: 2020-01-17 09:00
 desc: 'ASCII Art: Logical operators, integrating github into your workflow'
+assigned: 2020-01-17 09:00
 due: 2020-01-24 23:59
 layout: lab
 num: lab02

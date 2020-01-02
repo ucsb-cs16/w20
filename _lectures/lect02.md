@@ -1,15 +1,13 @@
 ---
 annotatedpdfurl: /lectures/CS16_Lecture2_ann.pdf
 annotatedready: true
-desc: Basic I/O, Variable Types, Boolean Expressions, Control Flow
+desc: Git, Basic I/O, Variable Types and Scope, Boolean Expressions, Control Flow , Loops
 lecture_date: 2020-01-09
 num: Lecture 2
 slides: /lectures/CS16_Lecture2.pdf
 ready: true
 
 ---
-
-
 
 # Topics
 
@@ -41,8 +39,10 @@ ready: true
 * Using git command line tools, we can sync up different repos. This means multiple collaborators can work on the same code on different machines.
 
 
-# Topics
-
 ## Dr. Wang's notes
 
-<https://ucsb-cs16-m18.github.io/lectures/lect02/> (starting on comments)
+* Boolean expressions and control structures: 
+<https://ucsb-cs16-m18.github.io/lectures/lect02/> 
+
+* Loops: 
+<https://ucsb-cs16-m18.github.io/lectures/lect03/>
