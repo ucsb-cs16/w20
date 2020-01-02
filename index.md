@@ -4,7 +4,7 @@ title: "CS16, W20, Mirza"
 
 ## {{site.course}} {{site.quarter}}
 
-All announcements will be posted on Piazza [at this link](https://piazza.com/configure-classes/fall2019/cs16f19mirza).
+All announcements will be posted on Piazza [at this link](https://piazza.com/configure-classes/winter2020/cs16w20).
 
 {% include collapse-button.html label="Information" id="info-list" %}
 
