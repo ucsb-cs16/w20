@@ -1,0 +1,123 @@
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
+
+remote_theme: ucsb-cs-course-repos/course-repo-jekyll-theme
+
+kramdown:
+  parse_block_html: false
+
+exclude: ['vendor', 'setup.sh', 'jekyll.sh']
+include:
+  - _pages
+
+timezone: America/Los_Angeles
+
+url: https://ucsb-cs16.github.io
+baseurl: "/w20"
+github_url: https://github.com/ucsb-cs16/w20
+
+title: "UCSB CS16"
+course: "CS16"
+qtr: "W20"
+quarter: "Fall 2020"
+
+ta_names: " Yuke Wang, Aarti Jivrajani, Yang Zhou, Luis Larios Cardenas"
+lab_times: "W: 9a, 10a, 11a, 12p; M: 1p, 2p, 3p, 4p; "
+instructor: "Diba Mirza"
+lecture_times: "Section A: TR - 2:00p-3:15p, Section B: TR: 3:30p-4:45p"
+lecture_location: "PSYCH 1924"
+github_org: ucsb-cs16-mirza
+
+start_week: 1
+start_date: 2020-01-05 
+num_weeks: 10
+extra_exam_week: true
+lecture_days_of_week: TR
+
+instructor_url: https://ucsb-cs16.github.io/instructor
+
+cal_dates: >
+  [
+  {"label":"First Day of Instruction", "date":"2020-01-06" },
+  {"label":"MLK Jr. Day", "date":"2020-01-20" , "holiday":true },
+  {"label":"President's Day", "date":"2020-02-17" , "holiday":true },
+  {"label":"No lecture: Professor attending SIGCSE Conference", "date":"2020-03-12" , "holiday":true },
+  {"label":"Drop deadline (no W grade)","date":"2020-02-03" },
+  {"label":"Instruction Ends", "date":"2020-03-13" },
+
+
+  ]
+
+
+collections:
+  hwk:
+    output: true
+    permalink: /hwk/:path/
+    last_before: false
+  lab:
+    output: true
+    permalink: /lab/:path/
+    last_before: false
+  pa:
+    output: true
+    permalink: /pa/:path/
+    last_before: false
+  exam:
+    output: true
+    permalink: /exam/:path/
+  info:
+    output: true
+    permalink: /info/:path/
+  lectures:
+    output: true
+    permalink: /lectures/:path/
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: default
+  -
+    scope:
+      path: ""
+      type: hwk
+    values:
+      layout: hwk
+  -
+    scope:
+      path: ""
+      type: lab
+    values:
+      layout: lab
+  -
+    scope:
+      path: ""
+      type: pa
+    values:
+      layout: lab
+  -
+    scope:
+      path: ""
+      type: exam
+    values:
+      layout: exam_info
+  -
+    scope:
+      path: ""
+      type: info
+    values:
+      layout: default
+  -
+    scope:
+      path: ""
+      type: lectures
+    values:
+      layout: lecture
+  -
+    scope:
+      path: "syllabus.md"
+      type: info
+    values:
+      layout: handout
