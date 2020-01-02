@@ -5,7 +5,7 @@ num: Lecture 7
 desc: "Data Representation "
 ready: true
 slides: /lectures/CS16_Lecture7.pdf
-lecture_date: 2019-10-17
+lecture_date: 2020-01-28
 ---
 
 # Code from lecture

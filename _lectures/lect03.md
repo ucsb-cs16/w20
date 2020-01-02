@@ -1,202 +1,220 @@
 ---
 annotatedpdfurl: /lectures/CS16_Lecture3_ann.pdf
 annotatedready: true
-desc: Variables and types, expressions, control structures (if-else), input/output 
-lecture_date: 2019-10-03
+desc: Repetition with loops 
+lecture_date: 2020-01-14
 num: Lecture 3
 slides: /lectures/CS16_Lecture3.pdf
 ready: true
 
 ---
 
-<!--
-# Lecture videos
+# Control Structures: Loops
 
-You should change the quality to the highest setting. And I'm sorry that I say "uh" a lot—at least you can watch at twice the speed and get it over with!
+## `while` loop
 
-- Precedence, assigning using constructors, `cerr` (watch this first): <https://www.youtube.com/watch?v=J5mCrJ3yUlg>
-- Main lecture: <https://www.youtube.com/watch?v=06yplj26938>
--->
-
-# Code from lecture
-
-
-# Topics
-# Boolean Expressions
-* An expression that evaluates to either true or false.
-* You can build boolean expressions with relational operators comparing values:
-
-```
-==  // true if two values are equivalent
-!=  // true if two values are not equivalent
-< // true if left value is less than the right value
-<=  // true if left value is less than OR EQUAL to the right value
-> // true if left value is greater than the right value
->=  // true if left value is greater than OR EQUAL to the right value
+A while loop is used to repeat code while some condition is true.
+```c++
+	while(BOOLEAN_EXPRESSION) {
+		// Code to run when the BOOLEAN_EXPRESSION is true.
+	}
 ```
 
-* Integer values can be used as boolean values
-  * C++ will treat the number 0 as false and any non-zero number as true.
+Check if the BOOLEAN_EXPRESSION is true.
+* If true, the statements inside the loop's block will execute.
+* at the end of the loop block, go back to `while`.
+* If false, the statements in the loop will not execute.
+* the program execution after the loop continues.
 
-```
-bool x = 5 == 1;  // x = 0
-bool x = 3 != 2;  // x = 1
-```
-
-  * Combine boolean expressions using Logical Operators
-
-```
-!   // inverts true to false or false to true
-&&  // boolean AND
-||  // boolean OR
-```
-  
-  * Example
-
-```
-bool x = true;
-bool y = true;
-x = !x;     // x = false
-x = x && y    // x = false
-x = x || y    // x = true
+Example usage: say we want users to enter a non-negative number.
+Use a while loop, so that users must keep entering values until the boolean statement is satisfied
+```c++
+    while(num < 0) {
+    	//keep asking user, taking in input
+    }
 ```
 
-# Control Structures
-
-* Boolean expressions are fundamental pieces that provide control flow within your program.
-
-## If-else statements
-
-* Ability to execute two alternative blocks of C++ statements based on the value of a boolean expression.
+## Example
 
 ```
-if (BOOLEAN_EXPRESSION) {
-  // code1
-} else {
-  // code2
+int i = 0;
+while (i < 10)
+	cout << "i = " << i << endl;
+	// add i++ afterwards to eliminate an infinite loop.
+	// i++ → i = i + 1;
+	// Remember to enclose this statement with { }
+```
+
+* Note that a single statement after a while loop (similar to an if statement) is considered part of the loop without the { }.
+	* If more than one statement is part of the loop, this must be contained within the { }
+
+
+The boolean statement is checked first, and the body is skipped if the requirements are met.
+Once the bool statement (`num < 0`) is no longer true, i.e., the user provided a non-negative number, the loop will stop.
+
+
+The `while` loop has two flavors: a usual `while` that we looked at above, and `do-while` loop, which is used when the body of the loop needs to be executed **at least once**.
+
+## `do-while` loops
+
+A `while` loop is used to repeat code until some condition is no longer true
+
+```c++
+	do {
+		// Code
+		// This code is executed once
+		// and is executed again if the BOOLEAN_EXPRESSION below is true
+	} while(BOOLEAN_EXPRESSION);
+```
+
+1. Execute the code in the loop
+2. Check if BOOLEAN_EXPRESSION is true.
+* If true, then go back to 1.
+* If false, then exit the loop and resume program execution.
+
+Note: You must have a semicolon (`;`) after the `while` statement, if you are using a `do-while` loop (no semicolon if it is just a `while`).
+
+In all loops, remember to **update the variable controlling the loop each time** (examined in bool test), otherwise an infinite loop will occur.
+After any while loop, we know that the variable being examined meets a particular condition (e.g., `num >= 0`), otherwise, we would not have exited the loop.
+
+## Example
+
+```
+int i = 0;
+do {
+	cout << "i = " << i << endl;
+	i++;
+} while (i < 0);
+```
+
+* Outputs "i = 0" once regardless of what the BOOLEAN_EXPRESSION evaluates to.
+* Change to `while (i < 10)` to print "i = [0 - 9]".
+
+
+## `for` loops
+
+The `while` and `for` loops can be interchanged, but some formats are more convenient than others in different situations.
+
+The `for` loop is used to repeat code (usually a fixed number of times).
+
+```c++
+	for (INITIALIZATION; BOOLEAN_EXPRESSION; UPDATE) {
+		// Code to run when the BOOLEAN_EXPRESSION is true.
+	}
+```
+
+1. Execute the INITIALIZATION statement.
+2. Check if the BOOLEAN_EXPRESSION is true.
+* if true, execute code in the loop.
+* THEN execute UPDATE statement.
+* Go back to the BOOLEAN_EXPRESSION.
+* if false, do not execute code in the loop.
+* exit the loop and resume program execution.
+
+## Example
+
+```
+for (int i = 0; i < 10; i++) {
+	cout << “i = “ << i << endl;
 }
 ```
 
-* If the BOOLEAN_EXPRESSION evaluates to true, then code1 is executed. Otherwise code2 is executed.
-* Example
+## Nested Loops
+
+Other loops within a loop can be defined.
+
+## Example
 
 ```
-int x = 4;
-if ((x > 3) && (x < 6)) {
-  cout << “x is either 4 or 5” << endl;
-} else {
-  cout << “x is not 4 or 5” << endl;
+for (int i = 0; i < 5; i++) {
+	cout << “—“ << endl;
+	cout << “i = “ << i << endl;
+	for (int j = 0; j < 5; j++) {
+		cout << “j = “ << j << endl;
+	}
 }
 ```
 
-* Notice the “{ … }” . Also known as block statements. 
-  * This allows many statements to be executed.
-  * Without “{ … }”, only the following statement will be executed, and other statements are considered outside the block statement.
-  * Example
+
+
+### Skipping and Terminating Loop Execution
+
+`continue`
+* Once a `continue` line is reached, go back to the top of the loop immediately
+
+`break`
+* Once a `break` line is reached, the program will _exit_ (break out of) the loop immediately
+
+In both cases, the program ignores anything else in the block that comes after continue/break,
+i.e., the rest of that block below the `continue`/`break` line is **not** executed
+
+## Example
 
 ```
-int x = 4;
-if ((x > 3) && (x < 6))
-  cout << “x is either 4 or 5” << endl;
-else
-  cout << “x is not 4 or 5” << endl;
-// Will have the same output as the last statement.
-
-int x = 6;
-if ((x > 3) && (x < 6))
-  cout << “1” << endl;
-  cout << “2” << endl; // outside if block
-  cout << “3” << endl; // outside if block
-```
-  
-  * The last two statements will always execute because it’s considered outside of the code block.
-  * A syntax error will appear if you try to insert an “else” after the statements since “else” can only be used after an if code block.
-
-# Multi-way If-else Statements
-
-* Programs may require more than simply two paths of code execution.
-* Multiple if-else statements can allow the program to execute many branches.
-* Example
-
-```
-int x = 3;
-if (x == 1)
-  cout << “x equals 1” << endl;
-else if (x == 2)
-  cout << “x equals 2” << endl;
-else if (x == 3)
-  cout << “x equals 3” << endl;
-else
-  cout << “x does not equal 1, 2, or 3” << endl;
+for (int i = 0; i < 10; i++) {
+	if (i == 4)
+		continue;
+	if (i == 7)
+		break;
+	cout << “i = “ << i << endl;
+}
 ```
 
 
-# User Input
 
-## Example of interacting with the console using the cin function
+# Formatting output to the terminal
+
+* Several ways to do this.
+* We can customize the `cout` function to display floating point numbers as follows:
+
+```
+cout.setf(ios::fixed);
+cout.setf(ios::showpoint);
+cout.precision(2); // prints two decimal spaces for floating point values.
+```	
+
+# Example: A number guessing game
 
 ```
 #include <iostream>
-#include <string>
 
 using namespace std;
 
-int main() {  
-// Example receiving a string from the user
-  string name;
-  cout << "What is your name? ";
-  cin >> name;
-  cout << "Hello " << name << endl;
-
-  // Example receiving a number from the user
-  int i;
-  cout << "Enter a number: ";
-  cin >> i;
-  cout << "The number entered is " << i << endl;
-
-  cout << i / 2 << endl; // what value / type is this if i == 11? 
-}
-```
-
-## Example of using command line arguments
-
-* We can pass information into a C++ program through the command line when executing the program.
-* Note: You may have to convert command line argument information into the proper type (i.e. convert it to an integer type) if necessary.
-* The main function will need to have the following:
-
-```
-int main(int argc, char *argv[]) {
-```
-
-* `int argc` is the number of "arguments" the program has, including the executable name.
-* `char* argv[]` is the "list" of arguments passed into the program.
-  * Don't worry if the syntax doesn't make too much sense for now, we'll cover this later in the quarter.
-
-```
-#include <iostream>
-#include <cstdlib>
-
-using namespace std;
+const int ANSWER = 42; // const values cannot be modified
 
 int main(int argc, char *argv[]) {
 
-  cout << "Number of arguments: " << argc << endl;
+	int input = 0;
 
-  cout << argv[0] << endl;
-  cout << argv[1] << endl;
-  cout << argv[2] << endl;
+	do {
+		cout << "Guess a number between [0 - 100]: ";
+		cin >> input;
+		if (input == -1)
+			break;
+		if (input < ANSWER) {
+			cout << "Too small" << endl;
+			continue;
+		}
+		if (input > ANSWER) {
+			cout << "Too big" << endl;
+			continue;
+		}
+		if (input == ANSWER) {
+			cout << "WINNER! ANSWER = " << ANSWER << endl;
+			break;
+		}
+	} while (true);
 
-  // how to use these arguments as numbers?
-  // We can convert them using the atoi function
-  // in the cstdlib standard library
-
-  int x = atoi(argv[1]) + atoi(argv[2]);
-  cout << x << endl;
-  return 0;
+	cout << "Thanks for playing!" << endl;
 }
 ```
 
 
-## Acknowledgements: Dr. Wang's Notes
-<https://ucsb-cs16-m18.github.io/lectures/lect03/> (cin and command line args, didn't get to loops)
+**Math Puzzle**
+One of the powers of computing is being able to do a brute-force search for a solution to a problem. Trial and error works just fine for some problems. In fact, computers can be especially good at such problems. Consider this:
 
+Horses cost $10, pigs cost $3, and rabbits are only $0.50. A farmer buys 100 animals for $100, How many of each animal did he buy?  
+
+Write a program to do this.
+
+Acknowledgements: Thanks to Richert Wang for the original version of these notes

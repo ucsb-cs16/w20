@@ -1,21 +1,19 @@
 ---
 annotatedpdfurl: /lectures/CS16_Lecture2_ann.pdf
 annotatedready: true
-desc: Basic I/O, Variable Types, Boolean Expressions, Control Flow and git
-lecture_date: 2019-10-01
+desc: Basic I/O, Variable Types, Boolean Expressions, Control Flow
+lecture_date: 2020-01-09
 num: Lecture 2
 slides: /lectures/CS16_Lecture2.pdf
 ready: true
 
 ---
 
-# Code from lecture
 
 
 # Topics
 
-
-# Code anywhere and everywhere with git 
+## Code anywhere and everywhere with git 
 
 ## What is git?
 * Git is a version control system (VCS). A VCS allows you to keep track of changes in a file (or groups of files) over time
@@ -43,7 +41,7 @@ ready: true
 * Using git command line tools, we can sync up different repos. This means multiple collaborators can work on the same code on different machines.
 
 
-
+# Topics
 
 ## Dr. Wang's notes
 

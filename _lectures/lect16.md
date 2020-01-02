@@ -5,7 +5,7 @@ ready: true
 slides: /lectures/CS16_Lecture16.pdf
 annotatedpdfurl: /lectures/CS16_Lecture16_ann.pdf
 annotatedready: true
-lecture_date: 2019-12-03
+lecture_date: 2020-03-05
 
 ---
 

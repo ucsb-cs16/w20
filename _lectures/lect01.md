@@ -2,16 +2,12 @@
 annotatedpdfurl: /lectures/CS16_Lecture1_ann.pdf
 annotatedready: true
 desc: Course overview, a gentle intro to C++ - Standard I/O
-lecture_date: 2019-09-26
+lecture_date: 2020-01-07
 num: Lecture 1
 slides: /lectures/CS16_Lecture1.pdf
 ready: true
 
 ---
-
-# Code from lecture
-
-
 
 # Topics
 
