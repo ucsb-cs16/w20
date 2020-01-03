@@ -19,13 +19,13 @@ home:
    baseurl: /
 
 offerings:
-   title: F19
+   title: W20
    url: /	
-   baseurl: /f19
+   baseurl: /w20
    items:
-      - title: F19
+      - title: W20
         url: /
-        baseurl: /f19
+        baseurl: /w20
 
 offering_links:
   - title: Homework
@@ -63,7 +63,7 @@ offering_links:
          url: https://gradescope.com
          description: "HW and Lab Grades"
        - title: Piazza
-         url: https://piazza.com/configure-classes/fall2019/cs16f19mirza
+         url: https://piazza.com/configure-classes/winter2020/cs16w20
          description: "Q&A Forum"
   - title: Github
     dropdown:
