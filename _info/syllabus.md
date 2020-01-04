@@ -228,9 +228,6 @@ be comfortable with all of the following:</p>
     <br />The reading and homeworks are practice for the exams. Homeworks will be posted on the course website each week (downloadable as a pdf). You must submitted your homwork answers electronically as a pdf file to gradescope. The preferred format is that you download the source pdf of the homework, write or type your answers. You may also print the original homework, write your answers using a dark pencil or pen, then scan your work. You may also simply use any text editor to write the answers to each question, convert the file to pdf and upload to gradescope.<br />
     <br />
 <br />
-    <br />
-    <br />
-     <br />
   </li>
 
   <li><strong>(3) Programming Assignments (Labs)</strong>—Programming assignments (also called labs) are given once a week, and are typically assigned every Friday. You may work on them during closed labs and plan to finish the assignment on your own time outside of lab. You must however, read the assignment and attempt the parts that you do with little assistant as soon as the assignment is released. The assumption is that you at the very least read the assignment before your lab section. You are encouraged to use pair programming in most of the labs but please read the collaboration policy for each lab. Some labs have to be completed individually.<br />
