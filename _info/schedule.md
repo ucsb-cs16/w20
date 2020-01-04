@@ -12,13 +12,11 @@ layout: default
 
 
 ## Instructor office hours: 
-* Wednesdays 10a - 11a in HFH 1155
-* Fridays 3p - 4p in HFH 1155
-
+* Mondays and Wednesdays 2p - 3p in HFH 1155
 Or by appointment
 
 ## TA office hours: 
-
+TBD
 * Monday     03:00 pm – 05:00 pm         - Harmeet
 * Wednesday  10:00 am – 12:00 pm         - Dara
 * Thursday   10:00 am – 12:00 pm         - Yang

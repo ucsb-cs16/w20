@@ -224,8 +224,8 @@ be comfortable with all of the following:</p>
   <li><strong>(1) Reading</strong>—Between each class, you'll have reading to do in the textbook. There is too much information you need to learn in this course for you to get all of it in lecture, so the readings are essential. The reading assignments for the next class can be found in the lecture notes for that class.<br />
     <br />
   </li>
-  <li><strong>(2) Quizzes</strong>
-    <br />The reading and written quizzes are practice for the exams. Reading quizzes will be in the first ten minutes of class. For the reading quizzes, you will need to bring your iclicker remote. The written quizzes are typically pencil/paper type problems. To practice for these, you can access all the past homeworks  (on gauchospace) and you'll need to practice writing programs using a computer. If you don't have reliable access to a computer at home (or in your dorm), please plan your schedule so that you can spend time in the CSIL computer lab between classes.<br />
+  <li><strong>(2) Homeworks</strong>
+    <br />The reading and homeworks are practice for the exams. Homeworks will be posted on the course website each week (downloadable as a pdf). You must submitted your homwork answers electronically as a pdf file to gradescope. The preferred format is that you download the source pdf of the homework, write or type your answers. You may also print the original homework, write your answers using a dark pencil or pen, then scan your work. You may also simply use any text editor to write the answers to each question, convert the file to pdf and upload to gradescope.<br />
     <br />
 <br />
     <br />
@@ -233,7 +233,7 @@ be comfortable with all of the following:</p>
      <br />
   </li>
 
-  <li><strong>(3) Programming Assignments (Labs)</strong>—Programming assignments (also called labs) are given once a week, and are typically started in the Wednesday lab sessions, and finished on your own time outside of lab. You must however, read the assignment and attempt the parts that you do with little assistant as soon as the assignment is released. The assumption is that you at the very least read the assignment before section. You are encouraged to use pair programming in most of the labs.<br />
+  <li><strong>(3) Programming Assignments (Labs)</strong>—Programming assignments (also called labs) are given once a week, and are typically assigned every Friday. You may work on them during closed labs and plan to finish the assignment on your own time outside of lab. You must however, read the assignment and attempt the parts that you do with little assistant as soon as the assignment is released. The assumption is that you at the very least read the assignment before your lab section. You are encouraged to use pair programming in most of the labs but please read the collaboration policy for each lab. Some labs have to be completed individually.<br />
     <br />
   </li>
   <li><strong>(4) Lectures</strong>—Learning is something that you do as a student, not something that is &quot;done to you&quot; by a teacher. Therefore most of the learning you will do in this course takes place when you are actively involved in doing something challenging (i.e., during the homework assignments and labs). Most of the information you will need to do those assignments will come from the reading. <br />
