@@ -39,6 +39,8 @@ Each student is responsible for knowing and abiding by UCSB's policies on Academ
   <li>You may not work together on assignments unless you've been specifically told that it is allowed.</li>
   <li>You may not simply divide a programming assignment between yourselves, and code separately, even when pair programming. Instead follow the pair programming guidelines and always work together on the same copy of the code </li>
   <li>If you are programming with a partner, you must add your partner in gradescope and include both your name and your partner's name at the top of every file</li>
+  <li> If you are reusing information or posted by instructors from a previous offering of this course, you must cite it in your work. In general our policy is to not use any code from previous offerings unless it has been explicity provided as a reference in any given assignment. </li> 
+
 </ul>
 <p>The bottom line:</p>
 <ul>
@@ -107,10 +109,10 @@ The partners should make a single joint submission to our autograder (gradescope
 The policy is simple, and is based on the idea that the primary purpose of the deadlines is to allow the TA manage his/her workload. The number of labs in this course requires that he/she not have to do "context switching" between grading different labs. All labs must be graded in one sitting, or he/she just won't be able to keep up with the workload.
 So:
 * If you want your work to be graded without penalty, turn it in on time.
-* If you turn in your lab late, you RISK GETTING A ZERO.
+* All labs have a 24 hours grace period beyond the listed deadline. If you turn in your lab after the grace period has ended, you RISK GETTING A ZERO.
 * We will grade late labs ONLY if it creates no extra inconvenience for the graders, and we WILL impose a penalty between 10-20% (see the individual grading rubrics for the labs.)
 * There is NO GUARANTEE that late labs will be graded at all. The TA will simply start work at some point after the deadline, and grade until he/she is finished. At that time, he/she will "close the books" on that particular lab, and any work not submitted at that time will NOT be considered.
-* If you miss an in-class reading quiz because your forgot your iclicker, you will lose your point for the quiz. However, I will eventually drop the lowest three iclicker quizzes, that should take care of situations like this.
+
 
 
 ## Frequently Asked Questions <a name="faq"></a>
@@ -119,14 +121,14 @@ So:
 <p> It is generally not necessary to bring the textbook to <em>lectures</em> for CS16. It may be helpful to bring the book to lab though, as it may be a useful reference for working on programming assignments.</p>
 
 <h3 ><em>Are there any extra credit components in this course?</em></h3>
- <p>I offer extra credit to the first person to report typos in the assigned readings from the book, or the homework assignments themselves.  Thus, starting earlier gives you a better chance to be the first one to report the typo. There is a special forum on Gauchospace for reporting typos—the time it is first reported there is what counts for extra credit (reporting it by email or in person or in class is <em>nice</em>, but does <em>not</em> earn the extra credit.) You can also get extra credit for exceptional participation and dissemination of good information on the class discussion forum</p>
+ <p>I offer extra credit to the first person to report typos in the assigned readings from the book, or the homework or lab assignments themselves.  Thus, starting earlier gives you a better chance to be the first one to report errors. There is a special thread on Gradescope for reporting errors—the time it is first reported there is what counts for extra credit (reporting it by email or in person or in class is <em>nice</em>, but does <em>not</em> earn the extra credit.) You can also get extra credit for exceptional participation and dissemination of good information on the class discussion forum (Piazza)</p>
 
 <p >Do we need to bring laptops to class? </p>
-<p >You do not <em>need</em> to bring a laptop to class. </p>
+<p >You do not <em>need</em> to bring a laptop to class but you are encouraged to bring your laptop to follow along during live coding sessions. </p>
 <h3 >Are we permitted to use laptops during lecture?</h3>
 <p >Research has shown that the use of electronic devices for purposed othen than note-taking or class related activities hampers the learning of both the student and those sitting close by. Although you are allowed to bring your laptop or mobile device, you may not use it to read email or Facebook, play games, etc. That latter use can be a real distraction to others sitting behind that student, not to mention the distraction to the laptop user herself/himself.</p>
 <p> The instructor holds the right to ask you to leave the class if you fail to comply with the course policy on using devices. If I find that this isn't working out, I reserve the right to change the policy and implement a ban on laptops in lecture (where the only exception would be someone with a medically certified disability that needs the laptop for ADA-compliance.)</p>
-<p >So, you don't want to be &quot;that guy&quot; or &quot;that gal&quot; that spoils it for everyone else. If you use a laptop, use it for legit purposes during class time.</p>
+<p >So, you don't want to be &quot;that person&quot; that spoils it for everyone else. If you use a laptop, use it for legit purposes during class time.</p>
 <h3 >What about laptops in lab?</h3>
 <p >Sometimes students want to use their laptops in lab instead of using the Linux computers provided. I would like to strongly discourage this for a variety of reasons:</p>
 <ul>
