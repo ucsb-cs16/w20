@@ -17,18 +17,20 @@ ready: true
 
 ## TA and tutor Office hours and lab hours
 * Yun Zhao: Mondays 9a - 11a
-* Yuke Wang: Wednesdays 9a - 11a
+* Yuke Wang: Tuesdays 10a - noon
 * Aarti Jivrajani: Wednesdays 2p - 3p
 * Luis Larios Cardenas: Thursdays 11a - 1p
 * Yang Zhou: Fridays 10a to 12p
 
 Location for TA office hours: Trailer 936 (small purple box in the picture below):
 
-![trailer 936 location](image.png){:height="500px"}
+![trailer 936 location](image.png){:height="400px"}
 
 
 ## Lectures and Labs
+
 **Lecture**: {{site.lecture_times}}, {{site.lecture_location}}. ATTENDANCE IS HIGHLY RECOMMENDED.
+
 ** **Lab**: {{site.lab_times}}.
 
 
