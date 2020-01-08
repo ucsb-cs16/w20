@@ -22,8 +22,9 @@ ready: true
 * Luis Larios Cardenas: Thursdays 11a - 1p
 * Yang Zhou: Fridays 10a to 12p
 
-* **Lecture**: {{site.lecture_times}}, {{site.lecture_location}}. ATTENDANCE IS HIGHLY RECOMMENDED.
-* **Lab**: {{site.lab_times}}.
+## Lectures and Labs
+**Lecture**: {{site.lecture_times}}, {{site.lecture_location}}. ATTENDANCE IS HIGHLY RECOMMENDED.
+** **Lab**: {{site.lab_times}}.
 
 
 
