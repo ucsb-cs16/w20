@@ -24,7 +24,7 @@ ready: true
 
 Location for TA office hours: Trailer 936 (small purple box in the picture below):
 
-![trailer 936 location](https://ucsb-cs16.github.io/w20/info/staff/image.png){:height="500px"}
+![trailer 936 location](image.png){:height="500px"}
 
 
 ## Lectures and Labs
