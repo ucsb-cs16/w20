@@ -1,7 +1,7 @@
 ---
 annotatedpdfurl: /lectures/CS16_Lecture2_ann.pdf
 annotatedready: true
-desc: Git, Basic I/O, Variable Types and Scope, Boolean Expressions, Control Flow , Loops
+desc: Git, Basic I/O, Variable Types and Scope, Boolean Expressions, Control Flow 
 lecture_date: 2020-01-09
 num: Lecture 2
 slides: /lectures/CS16_Lecture2.pdf
@@ -44,5 +44,4 @@ ready: true
 * Boolean expressions and control structures: 
 <https://ucsb-cs16-m18.github.io/lectures/lect02/> 
 
-* Loops: 
-<https://ucsb-cs16-m18.github.io/lectures/lect03/>
+
