@@ -32,4 +32,5 @@ Horses cost $10, pigs cost $3, and rabbits are only $0.50. A farmer buys 100 ani
 
 Write a program to do this.
 
-Acknowledgements: Thanks to Richert Wang for the original version of these notes
+* Dr. Wang's notes on loops: 
+<https://ucsb-cs16-m18.github.io/lectures/lect03/>
