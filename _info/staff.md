@@ -27,8 +27,7 @@ Location for TA office hours: Trailer 936 (small purple box in the picture below
 ![trailer 936 location](image.png){:height="400px"}
 
 ## Undergraduate Learning Assistants (ULA)
-In addition to the intructor and TA, there are several ULAs in the course who are available to assist you outside of your scheduled lab sections in Phelps 3525 and 3526. We usually refer to these help hours as "open labs".
-Below is the schedule for ULA open-lab hours:
+In addition to the intructor and TA, there are several ULAs in the course who are available to assist you during your scheduled lab sections (also called closed labs) and by holding additional help hours outside of sections (also called open-labs). The closed-labs are only available to students registered for that lab section on GOLD. The open-labs are available to all students registered in the course (similar to office hours). Below is the schedule for ULA closed and open lab hours:
 
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSpVyxmlsoYbd3sKRuiF6MU4-QaFJ0SV9KsGwnA__n3Y0NSDevsLy2p_JJyCUXjsmqeiGxuXiGx8vnC/pubhtml?gid=1430621734&amp;single=true&amp;widget=true&amp;headers=false" style="border-width:0" width="1000" height="600" frameborder="0" scrolling="no"></iframe>
 
