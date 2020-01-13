@@ -44,7 +44,7 @@ Please sit with your pair partner on the same terminal. Decide who will be the '
 
 * If you face difficulties with pair programming consult your TA.
 
-# Academic Honesty 
+# Academic Honesty (this lab may be completed with a pair partner)
 All work submitted for this lab should be your own and your pair partner's (if you have a partner). Do not use code posted on the internet. If you are using any hints from a previous offering of this course that was posted publicly by a CS16 instructor, you must cite your source.
 
 ## C++ Style guide
