@@ -44,6 +44,9 @@ Please sit with your pair partner on the same terminal. Decide who will be the '
 
 * If you face difficulties with pair programming consult your TA.
 
+## C++ Style guide
+
+Please follow the information in this C++ style guide: <https://docs.google.com/presentation/d/16ExuzjlRWClQe-GbX_FNYKsSJnrd0Z5ef7N1c0sezUA/edit?usp=sharing>
 
 ## Log on and create a local directory
 
