@@ -16,6 +16,9 @@ ready: true
 
 *Read through the entire lab, and identify parts that seem unclear to you. You can let your TA know about this at the beginning of the lab.
 
+# Academic Honesty (this lab may be completed with a pair partner)
+All work submitted for this lab should be your own and your pair partner's (if you have a partner). Do not use code posted on the internet. If you are using any hints from a previous offering of this course that was posted publicly by a CS16 instructor, you must cite your source.
+
 # Goals for this lab
 
 By the time you have completed this lab, you should be able to
