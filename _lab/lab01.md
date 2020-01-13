@@ -364,9 +364,9 @@ If you are logged in remotely, you can log out using the exit command:
 `$ exit`
 
 
-## Grading rubric
+## Code style
 
-In addition to the points given by gradescope, our staff will be manually grading your code for style. Code style, includes but is not limited to the following:
+We ask that you practice, good coding style which includes but is not limited to the following:
 
 1. Code can be easily understood by humans familiar with C++ (including both the author(s) of the code, and non-authors of the code.)
 2. Code is neatly indented and formatted, following standard code indentation practices for C++ as illustrated in either the textbook, or example code given in lectures and labs
