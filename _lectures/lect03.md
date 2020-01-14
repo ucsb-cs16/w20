@@ -1,6 +1,6 @@
 ---
 annotatedpdfurl: /lectures/CS16_Lecture3_ann.pdf
-annotatedready: true
+annotatedready: false
 desc: Git, Functions, Loops
 lecture_date: 2020-01-14
 num: Lecture 3
@@ -9,21 +9,21 @@ ready: true
 
 ---
 
-## Designing nested loops
-* When do we need a loop?
-* When do we need a nested loop?
-* Checking for limits
-* Practice with ASCII art (also topic of lab02)
 
 ## Three key aspects of functions
 * Declaration (what are the inputs, outputs?)
 * Definition  (actual code for achieving the desired behavior)
 * Function call (using function)
 
-## C++ Memory Model
-* Program layout in memory: text, global data , heap and stack
-* The stack and its purpose
-* Global vs. local variables
+## Variable scope
+* Local vs. global variables
+
+## Designing nested loops
+* When do we need a loop?
+* When do we need a nested loop?
+* Checking for limits
+* Practice with ASCII art (also topic of lab02)
+
 
 **Math Puzzle**
 One of the powers of computing is being able to do a brute-force search for a solution to a problem. Trial and error works just fine for some problems. In fact, computers can be especially good at such problems. Consider this:
