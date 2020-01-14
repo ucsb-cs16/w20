@@ -1,7 +1,7 @@
 ---
 annotatedpdfurl: /lectures/CS16_Lecture3_ann.pdf
 annotatedready: true
-desc: Git, Functions, Stack, Nested Loops
+desc: Git, Functions, Loops
 lecture_date: 2020-01-14
 num: Lecture 3
 slides: /lectures/CS16_Lecture3.pdf
