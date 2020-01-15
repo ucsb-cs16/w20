@@ -9,7 +9,7 @@ ready: true
 ## Course instructor: Diba Mirza
 * email: diba [at] ucsb [dot] edu, but please use Piazza for course-related communication. You can send private messages on Piazza to either the entire course staff or directly to me. If you must email me using my email address, please write [CS16] in the subject line
  
-* Office hours: Mondays and Wednesdays 2p - 3p in HFH 1155 (starting 1/9) Or by appointment
+* Office hours: Mondays 2p - 3p, Wednesdays 1p - 3p in HFH 1155 (starting 1/9) Or by appointment
 
 ## Course TAs
 * {{site.ta_names}}
