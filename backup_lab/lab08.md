@@ -1,11 +1,10 @@
 ---
-assigned: 2019-08-21 00:00
-desc: 'Anagrams, palindromes: Strings and recursion'
-due: 2019-08-28 23:59
 layout: lab
 num: lab08
 ready: true
-
+desc: "Anagrams, palindromes: Strings and recursion"
+assigned: 2020-03-06 09:00:00.00-8
+due: 2020-03-13 23:59:00.00-8
 ---
 <div markdown="1">
 
@@ -15,11 +14,11 @@ This lab will have you do programming exercises with C strings, string class obj
 
 # Step 1: Getting Started
 
-1. Decide if you are working alone, or working in a pair.
+1. Decide if you are working alone, or working in a pair. Pair programming is OPTIONAL for this lab.
 
-2. If you are working as a pair, choose who will be the first driver and who will start as navigator, and then remember to switch (at least once) during the lab.
+2. If you are working as a pair, remember to add your pair partner on gradescope.
 
-3. Go to github and create a git repo for this lab following the naming convention specified in previous labs. If you are working with a partner only one of you needs to create the repo.
+3. Go to github and create a git repo for this lab following the naming convention specified in previous labs (this step carries style points, see our feedback on previous labs to understand what we are looking for). If you are working with a partner only one of you needs to create the repo.
 
 4. If you are working with a partner and you are the one who created the github repo, add your partner as a collaborator on the repo
 
@@ -34,6 +33,7 @@ This lab will have you do programming exercises with C strings, string class obj
 
 Note: Remember to push your work to github at the end of EVERY work session. That way, both partners always have access to the latest version of the code even if the code is being developed on one partner's CoE account.
 
+
 # Step 2: Getting the starter code and writing the programs
 
 Clone your github repo in the ~/cs16/ directory. Then cd into your repo directory.
@@ -43,19 +43,20 @@ Clone your github repo in the ~/cs16/ directory. Then cd into your repo director
 Copy the code starter code for lab08 using the following command.
 
 ```
-  cp /cs/student/lawtonnichols/cs16/labs/lab08/* ./
+  cp /cs/faculty/dimirza/cs16/labs/lab08/* ./
 ```
 
 You should see the following files:
 
 ```
-[lawtonnichols@csil-01 lab08]$ls
+[dimirza@csil-01 lab08]$ls
 linkedListFuncs.cpp  README.md               strFuncs.cpp  tddFuncs.h
 linkedListFuncs.h    recLinkedListFuncs.cpp  strFuncs.h
 linkedList.h         recLinkedListFuncs.h    tddFuncs.cpp
 ```
 
-This lab will have you write two functions that are specified in strFuncs.h and two functions that are specified in recLinkedListFuncs.h. You must implement these functions in strFuncs.cpp and recLinkedListFuncs.cpp. You must follow the instructions carefully.
+This lab will have you write two functions that are specified in strFuncs.h and two functions that are specified in recLinkedListFuncs.h. You must implement these functions in strFuncs.cpp and recLinkedListFuncs.cpp. You must follow the instructions carefully. It is not enough to pass the gradescope check as the instructor and the TAs *will* be checking your submitted program files for style.
+
 
 ## Program to find if two strings are anagrams
  In the file strFuncs.cpp, write a function called isAnagram that takes two strings as arguments and returns a boolean true if the two strings are anagrams, otherwise it returns false. The function should not be case sensitive and should disregard any punctuation or spaces. Two strings are anagrams if the letters can be rearranged to form each other. For example, “Eleven plus two” is an anagram of “Twelve plus one”. Each string contains one “v”, three “e’s”, two “l’s”, etc. Similarly "Rats and Mice" and "in cat's dream" are anagrams of each other. You may use any of the C string library or string class functions to complete this code. You may **not** use built-in C++ functions that we have NOT discussed in lecture. You must follow a TDD style of coding. Write your own test code in a separate file and write a Makefile to compile the code.
@@ -76,7 +77,7 @@ The above function takes a C++ string as input and returns true if an input stri
 ```
 int recursiveSum(Node* head);
 ```
-In recLinkedListFuncs.cpp you are asked to implement a function that sums the values of a list recursively. If there are no elements of the list, return the value 0;
+In recLinkedListFuncs.cpp you are asked to reimplement the sum function from last week, this time recursively. If there are no elements of the list, return the value 0;
 
 ## Program to recursively find the largest value of a linked list
 
@@ -84,7 +85,7 @@ In recLinkedListFuncs.cpp you are asked to implement a function that sums the va
 int recursiveLargestValue(Node* head);
 ```
 
-In recLinkedListFuncs.cpp you are asked to implement a function that recursively finds the largest value of a list. For this function, you may assume that the linked list contains at least one value. 
+In recLinkedListFuncs.cpp you are asked to reimplement the largestValue function from last week, this time recursively. For this function, you may assume that the linked list contains at least one value. 
 
 ## Step 3: Submit
 
@@ -99,6 +100,7 @@ You may submit this lab multiple times. You should submit only after local compi
 
 
 ## Step 5: Done!
+Remember that we will check your code for appropriate comments, formatting, and the use of required code, as stated earlier.
 
 If you are in the Phelps lab or in CSIL, make sure to log out of the machine before you leave. Also, make sure to close all open programs before you log out. Some programs will not work next time if they are not closed. Remember to save all your open files before you close your text editor.
 

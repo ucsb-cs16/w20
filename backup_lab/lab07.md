@@ -1,27 +1,32 @@
 ---
-assigned: 2019-08-14 00:00
-desc: Linked lists
-due: 2019-08-20 23:59
 layout: lab
 num: lab07
 ready: true
-
+desc: "Linked lists"
+assigned: 2020-02-28 09:00:00.00-8
+due: 2020-03-06 23:59:00.00-8
 ---
-
 
 # Goals of this lab
 
-The goal of this lab is get more practice with iterating through linked lists and solving problems. Continue to practice code tracing to reason about your code. We request that you DO NOT ask the staff to debug your code, but instead ask them to guide you in the debugging process.
+The goal of this lab is get more practice with iterating through linked lists and solving problems. Continue to practice code tracing to reason about your code. We request that you DO NOT ask the staff to debug your code. They have been specifically instructed not to debug for you, rather to guide in the process.
+
+You are also required to apply the style guidelines as described in this presentation: [link to style guide](https://docs.google.com/presentation/d/16ExuzjlRWClQe-GbX_FNYKsSJnrd0Z5ef7N1c0sezUA/edit?usp=sharing)
+
+If you are using a style different from what is recommended and feel strongly about continuing in that style, you may include a note as a comment in the README of your project explaining the rationale behind your choices. Cite any sources as relevant.
+
+If you are using any instructor written code or hints from a previous offering of this course, cite your source. Remember that code that is not written by you is in violation of the academic honesty for this class.
+
 
 # Step by Step Instructions: PLEASE READ CAREFULLY!
 
 ## Step 1: Getting Started
 
-1. Decide if you are working alone, or working in a pair.
+1. Decide if you are working alone, or working in a pair. Pair programming is OPTIONAL for this lab.
 
 2. Choose who will be the first driver and who will start as navigator, and then remember to switch (at least once) during the lab.
 
-3. Go to github and create a git repo for this lab following the naming convention specified in previous labs. If you are working with a partner only one of you needs to create the repo.
+3. Go to github and create a git repo for this lab following the naming convention specified in previous labs (this step carries style points, see our feedback on previous labs to understand what we are looking for). If you are working with a partner only one of you needs to create the repo.
 
 4. If you are working with a partner and you are the one who created the github repo, add your partner as a collborator on the repo
 
@@ -41,7 +46,7 @@ Note: Remember to push your work to github at the end of EVERY work session. Tha
 
 * Navigate to your cs16 directory and clone the git repository you created
 ```
-git clone git@github.com:ucsb-cs16-m19-nichols/lab07_alily_jgaucho.git
+git clone git@github.com:ucsb-cs16-s18-mirza/lab07_alily_jgaucho.git
 ```
 * cd into this new directory
 ```
@@ -51,18 +56,18 @@ cd lab07_alily_jgaucho
 * Copy the starter code by typing the following command:
 
 ```
-cp /cs/student/lawtonnichols/cs16/labs/lab07/* ./
+cp /cs/faculty/dimirza/cs16/labs/lab07/* ./
 ```
 
 Typing the list (ls) command should show you the following files in your current directory
 
 ```
-[lawtonnichols@csil-03 lab07-startercode]$ ls
+[dimirza@csil-03 lab07-startercode]$ ls
 linkedListFuncs.cpp  Makefile                 tddFuncs.cpp
 linkedListFuncs.h    moreLinkedListFuncs.cpp  tddFuncs.h
 linkedList.h         moreLinkedListFuncs.h
 llTests.cpp          README.md
-[lawtonnichols@csil-03 lab07-startercode]$
+[dimirza@csil-03 lab07-startercode]$
 ```
 
 
@@ -205,6 +210,10 @@ At that point, you are ready to try submitting on gradescope.
 
 Submit the moreLinkedListFuncs.cpp file on gradescope. Make sure to add your partner as a collaborator if you had one.
 
+# Grading Rubric
+
+Most of the points will be awarded based on gradescope automatic grading. Other points will be assigned after visual code inspection by TAs.
+
 ## Gradescope automatic points
 
 <table border="1">
@@ -217,3 +226,22 @@ Submit the moreLinkedListFuncs.cpp file on gradescope. Make sure to add your par
 <tr><td><p style="color:green;margin:0;padding:0;">smallestValue</p></td><td>(10 pts)</td></tr>
 <tr><td><p style="color:green;margin:0;padding:0;">sum</p></td><td>(10 pts)</td></tr>
 </table>
+
+## Code inspection human-assigned points
+
+* (10 pts) Code style, including but not limited to:
+1. Code can be easily understood by humans familiar with C++ (including both the author(s) of the code, and non-authors of the code.)
+2. Code is neatly indented and formatted, following standard code indentation practices for C++ as illustrated in either the textbook, or example code given in lectures and labs
+3. Variable names choices are reasonable
+4. Code is reasonably "DRY" (as in "don't repeat yourself")&mdash;where appropriate, common code is factored out into functions
+5. Code is not unnecessarily or unreasonably complex when a simpler solution is available
+6. Other guidelines as discussed in the style guide for this class: [link to style guide](https://docs.google.com/presentation/d/16ExuzjlRWClQe-GbX_FNYKsSJnrd0Z5ef7N1c0sezUA/edit?usp=sharing)
+7. Fix any style issues (inconsistencies or other problems) in the starter code.
+
+## An important word about academic honesty and the gradescope system
+
+We will test your code against other data files too&mdash;not just these.  So while you might be able to pass the tests on gradescope now by just doing a hard-coded "cout" of the expected output, that will NOT receive credit.    
+
+To be very clear, code like this will pass on gradescope, BUT REPRESENTS A FORM OF ACADEMIC DISHONESTY since it is an attempt to just "game the system", i.e. to get the tests to pass without really solving the problem.
+
+I would hope this would be obvious, but I have to say it so that there is no ambiguity: hard coding your output is a form of cheating, i.e. a form of "academic dishonesty".  Submitting a program of this kind would be subject not only to a reduced grade, but to possible disciplinary penalties.    If there is <em>any</em> doubt about this fact, please ask your TA and/or your instructor for clarification.

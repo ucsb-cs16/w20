@@ -1,26 +1,28 @@
 ---
-assigned: 2019-08-07 00:00
-desc: Advanced array lists and dynamic arrays
-due: 2019-08-14 23:59
 layout: lab
 num: lab06
 ready: true
-
+desc: "Advanced array lists and dynamic arrays"
+assigned: 2020-02-21 09:00:00.00-8
+due: 2020-02-28 23:59:00.00-8
 ---
 
 # Goals of this lab
 
 The goal of this lab is get more practice with iterating through arrays and dynamically allocating memory. Continue to practice code tracing to reason about your code. We request that you DO NOT ask the staff to debug your code. They have been specifically instructed not to debug for you, rather to guide in the process.
 
+# Academic Honesty 
+All work submitted for this lab should be your own. If you are using any hints from a previous offering of this course that was posted publicly by a CS16 instructor, you must cite your source. 
+
 # Step by Step Instructions: PLEASE READ CAREFULLY!
 
 ## Step 1: Getting Started
 
-1. Decide if you are working alone, or working in a pair.
+1. Decide if you are working alone, or working in a pair. Pair programming is OPTIONAL for this lab.
 
 2. If you are working as a pair, make sure that you submit as a pair on Gradescope at the end of the lab.  Choose who will be the first driver and who will start as navigator, and then remember to switch (at least once) during the lab.
 
-3. Go to github and create a git repo for this lab following the naming convention specified in previous labs. If you are working with a partner only one of you needs to create the repo.
+3. Go to github and create a git repo for this lab following the naming convention specified in previous labs (this step carries style points, see our feedback on previous labs to understand what we are looking for). If you are working with a partner only one of you needs to create the repo.
 
 4. If you are working with a partner and you are the one who created the github repo, add your partner as a collborator on the repo
 
@@ -40,7 +42,7 @@ Note: Remember to push your work to github at the end of EVERY work session. Tha
 
 * Navigate to your cs16 directory and clone the git repository you created
 ```
-git clone git@github.com:ucsb-cs16-m19/lab06_alily_jgaucho.git
+git clone git@github.com:ucsb-cs16-s18-mirza/lab06_alily_jgaucho.git
 ```
 * cd into this new directory
 ```
@@ -50,17 +52,17 @@ cd lab06_alily_jgaucho
 * Copy the starter code by typing the following command:
 
 ```
-cp /cs/student/lawtonnichols/cs16/labs/lab06/* ./
+cp /cs/faculty/dimirza/cs16/labs/lab06/* ./
 ```
 
 Typing the list (ls) command should show you the following files in your current directory
 
 ```
-[lawtonnichols@csil-03 lab06-startercode]$ ls
+[dimirza@csil-03 lab06-startercode]$ ls
 arrayFuncs.cpp  Makefile            README.md
 arrayFuncs.h    moreArrayFuncs.cpp  tddFuncs.cpp
 mafTest.cpp     moreArrayFuncs.h    tddFuncs.h
-[lawtonnichols@csil-03 lab06-startercode]$
+[dimirza@csil-03 lab06-startercode]$
 
 ```
 
@@ -254,7 +256,9 @@ Go throught the same submit process you have in past labs. Make sure you add you
 
 # Grading Rubric
 
-## Gradescope Points
+Some of the points will be awarded based on gradescope automatic grading. Other points will be assigned after visual code inspection by TAs.
+
+## Submit.cs system automatic points
 
 <table border="1">
 <tr><th>Test Name</th><th>Value</th></tr>
@@ -268,6 +272,15 @@ Go throught the same submit process you have in past labs. Make sure you add you
 <tr><td><p style="color:green;margin:0;padding:0;">multiplyPairwise</p></td><td>(10 pts)</td></tr>
 <tr><td><p style="color:green;margin:0;padding:0;">createArray</p></td><td>(10 pts)</td></tr>
 </table>
+
+## Code inspection human-assigned points
+
+* (10 pts) Code style, including but not limited to:
+1. Code can be easily understood by humans familiar with C++ (including both the author(s) of the code, and non-authors of the code.)
+2. Code is neatly indented and formatted, following standard code indentation practices for C++ as illustrated in either the textbook, or example code given in lectures and labs
+3. Variable names choices are reasonable
+4. Code is reasonably "DRY" (as in "don't repeat yourself")&mdash;where appropriate, common code is factored out into functions
+5. Code is not unnecessarily or unreasonably complex when a simpler solution is available
 
 ## An important word about academic honesty and the gradescope system
 
