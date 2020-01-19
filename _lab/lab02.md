@@ -204,6 +204,37 @@ starC renders the letters C, but requires a minimum width of 2, and a minimum he
 
 starX renders the letters X, but requires a minimum width of 3.   It only takes one parameter, because the height and width are always assumed to be equal.
 
+|Fucntion call| Returns|
+|-------------|--------|
+|`starX(3)` |
+```
+* *
+ * 
+* *
+```
+|
+|`starX(5)`|
+```
+*   *
+ * * 
+  *  
+ * * 
+*   *
+```
+|
+|`starX(7)`|
+```
+*     *
+ *   * 
+  * *  
+   *   
+  * *  
+ *   * 
+*     *
+```
+|
+|`starX(4)`||
+
 # Step by Step Instructions <a name="stepbystep"></a>
 
 
