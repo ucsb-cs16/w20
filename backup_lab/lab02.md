@@ -1,6 +1,6 @@
 ---
-desc: 'ASCII Art: Logical operators, integrating github into your workflow'
-assigned: 2020-01-17 09:00
+desc: 'ASCII Art: Logical operators, integrating github into your workflow (New!)'
+assigned: 2020-01-19 09:00
 due: 2020-01-24 23:59
 layout: lab
 num: lab02
@@ -17,7 +17,9 @@ ready: true
 *Read through the entire lab, and identify parts that seem unclear to you. You can let your TA know about this at the beginning of the lab.
 
 # Academic Honesty (this lab may be completed with a pair partner)
-All work submitted for this lab should be your own and your pair partner's (if you have a partner). Do not use code posted on the internet. If you are using any hints from a previous offering of this course that was posted publicly by a CS16 instructor, you must cite your source.
+* All work submitted for this lab should be your own and your pair partner's (if you have a partner). Do not use code posted on the internet. If you are using any hints from a previous offering of this course that was posted publicly by a CS16 instructor, you must cite your source.
+
+* You must use the starter code provided for the lab on the release date 2020-01-19. Do not use ANY code from previous offerings of this code. Similarity with old versions of this assignment, including can be used as the basis for academic dishonesty.
 
 # Goals for this lab
 
@@ -104,7 +106,7 @@ You should see the following files:
 
 ```
 $ls
-backslash.cpp  README.md  starC.cpp  starL.cpp  starT.cpp  starZ.cpp
+README.md  starC.cpp  starL.cpp  starT.cpp  starN.cpp
 ```
 
 ## Step 3: Using the git command line tools to save the first version of your code <a name="firstcommit"></a>
@@ -185,7 +187,7 @@ and then passes those to the function:
 
 ## What you'll be doing <a name="yourgoal"></a>
 
-What you'll be doing in this lab is writing three similar functions: startT, starC and starZ.  
+What you'll be doing in this lab is writing three similar functions: startT, starC and starN.  
 
 *Sample values returned from starT*
 
@@ -199,9 +201,9 @@ starC renders the letters C, but requires a minimum width of 2, and a minimum he
 ![starC](starC.png){:height="400px"}
 
 
-*Sample values returned from starZ*
+*Sample values returned from starN*
 
-starZ renders the letters Z, but requires a minimum width of 3.   It only takes one parameter, because the height and width are always assumed to be equal.
+starN renders the letters N, but requires a minimum width of 3.   It only takes one parameter, because the height and width are always assumed to be equal.
 
 ![starZ](starZ.png){:height="400px"}
 
@@ -228,7 +230,7 @@ Run the program with a few command line parameters. You’ll notice something sp
 
 With the command line parameters -1 -1, the program runs a set of tests on itself to make sure that the function starL inside the program is functioning correctly.  So, you should be able to get some feedback on whether your code is correct before you even send it to gradescope.  The code uses stoi to convert the argv[1] and argv[2] to integer values, and compare against -1.
 
-Look over the code and try to understand how it works.  When you feel ready, move on to the next step, and try tackling the starT.cpp, starC.cpp and starZ.cpp programs.
+Look over the code and try to understand how it works.  When you feel ready, move on to the next step, and try tackling the starT.cpp, starC.cpp and starN.cpp programs.
 
 ## Step 2: Writing the starT program
 
@@ -245,11 +247,11 @@ In general the parameters to the startT program are width, followed by height. Y
 
 When you think you have a correct implementation, try submitting to the gradescope system.  You can submit just your starT.cpp program to see how far along you've gotten.
 
-Note that this will show failures for <code>starC.cpp</code> and <code>starZ.cpp</code>, which are files that you'll be working on at a later step.
+Note that this will show failures for <code>starC.cpp</code> and <code>starN.cpp</code>, which are files that you'll be working on at a later step.
 
 You could also just submit the "stubs" for those&mdash;though those will fail some or all of the tests.
 
-Either way, for now, concentrate only on the test failures that pertain to starT.cpp and try to address any problems you encounter.  If you fix these NOW before moving on to starC.cpp and/or starZ.cpp, you will likely have better success, because what you learn from fixing your mistakes will help you get those other parts solved more quickly and easily.
+Either way, for now, concentrate only on the test failures that pertain to starT.cpp and try to address any problems you encounter.  If you fix these NOW before moving on to starC.cpp and/or starN.cpp, you will likely have better success, because what you learn from fixing your mistakes will help you get those other parts solved more quickly and easily.
 
 Some rules to keep in mind for the starT function:
 
@@ -299,9 +301,9 @@ When:
 
 then, you are ready to try testing your code on gradescope.
 
-Note that failures for <code>starZ.cpp</code> may still show up, but we need not be concerned about those yet.  
+Note that failures for <code>starN.cpp</code> may still show up, but we need not be concerned about those yet.  
 
-Concentrate only on the test failures that pertain to starC.cpp and starT.cpp and try to address any problems you encounter.  Once all of those pass, move on to the starZ.cpp program:
+Concentrate only on the test failures that pertain to starC.cpp and starT.cpp and try to address any problems you encounter.  Once all of those pass, move on to the starN.cpp program:
 
 Save the new version of your code with the starT and starC implementation by typing out the following commands:
 
@@ -312,49 +314,21 @@ git push origin master
 ```
 
 
-## Step 4: Writing the starZ program
+## Step 4: Writing the starN program
 
-For the starZ.cpp program, we have these rules:
+For the starN.cpp program, we have these rules:
 
 * Take only one command line parameter: the width. The height will automatically be set equal to the width.
 
-The starZ function follows these rules:
+The starN function follows these rules:
 
 * return a string that draws  the letter Z with the correct width and height, but only if width &gt;=3
 * return an empty string if the value passed in for width is not valid, print nothing at all.
 
-Hints for the middle part of the Z:
+Hints:
+* You might find that writing several "helper functions" is a useful technique in writing your own code.   You may introduce whatever helper functions would be useful to you.
 
-* Take a look at the program backslash.cpp which is in your directory.   Try compiling and running it.  Look at the source code and see if there are any hints there.
-* As you can see, it produces a backslash.cpp produces a backslash of a given width, as shown here.   Look at the source code, and consider how you might turn backslash.c into forwardslash.c&mdash;in fact, that might be a good warm-up exercise for making the starZ.c program.     Note that the backslash.cpp program does not contain an internal test harness.
-* Note that the backslash.cpp program uses several "helper functions".  You might find that to be a useful technique in writing your own code.   You may introduce whatever helper functions would be useful to you.
-
-```
--bash-4.1$  ./backslash
-Usage: ./backslash width
--bash-4.1$ ./backslash 3
-*
- *
-  *
--bash-4.1$ ./backslash 5
-*
- *
-  *
-   *
-    *
--bash-4.1$ ./backslash 2
-*
- *
--bash-4.1$ ./backslash 4
-*
- *
-  *
-   *
--bash-4.1$
-```
-
-
-As with starC.cpp, you should add code to starZ.cpp so that you are able to invoke the internal tests by typing <code>./starZ -1 </code>.  Note that this time, there is only one parameter.
+As with starC.cpp, you should add code to starN.cpp so that you are able to invoke the internal tests by typing <code>./starN -1 </code>.  Note that this time, there is only one parameter.
 
 And, if there is not exactly one parameter, there should be an appropriate "usage" message that follows the pattern of the other programs&mdash;except that there is only a width parameter in this program.
 
