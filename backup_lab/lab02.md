@@ -106,7 +106,7 @@ You should see the following files:
 
 ```
 $ls
-README.md  starC.cpp  starL.cpp  starT.cpp  starN.cpp
+README.md  starC.cpp  starL.cpp  starT.cpp  starX.cpp
 ```
 
 ## Step 3: Using the git command line tools to save the first version of your code <a name="firstcommit"></a>
@@ -187,10 +187,9 @@ and then passes those to the function:
 
 ## What you'll be doing <a name="yourgoal"></a>
 
-What you'll be doing in this lab is writing three similar functions: startT, starC and starN.  
+What you'll be doing in this lab is writing three similar functions: startT, starC and starX.  
 
 *Sample values returned from starT*
-
 
 ![starT](starT.png){:height="400px"}
 
@@ -201,11 +200,9 @@ starC renders the letters C, but requires a minimum width of 2, and a minimum he
 ![starC](starC.png){:height="400px"}
 
 
-*Sample values returned from starN*
+*Sample values returned from starX*
 
-starN renders the letters N, but requires a minimum width of 3.   It only takes one parameter, because the height and width are always assumed to be equal.
-
-![starZ](starZ.png){:height="400px"}
+starX renders the letters X, but requires a minimum width of 3.   It only takes one parameter, because the height and width are always assumed to be equal.
 
 # Step by Step Instructions <a name="stepbystep"></a>
 
@@ -230,7 +227,7 @@ Run the program with a few command line parameters. You’ll notice something sp
 
 With the command line parameters -1 -1, the program runs a set of tests on itself to make sure that the function starL inside the program is functioning correctly.  So, you should be able to get some feedback on whether your code is correct before you even send it to gradescope.  The code uses stoi to convert the argv[1] and argv[2] to integer values, and compare against -1.
 
-Look over the code and try to understand how it works.  When you feel ready, move on to the next step, and try tackling the starT.cpp, starC.cpp and starN.cpp programs.
+Look over the code and try to understand how it works.  When you feel ready, move on to the next step, and try tackling the starT.cpp, starC.cpp and starX.cpp programs.
 
 ## Step 2: Writing the starT program
 
@@ -247,11 +244,11 @@ In general the parameters to the startT program are width, followed by height. Y
 
 When you think you have a correct implementation, try submitting to the gradescope system.  You can submit just your starT.cpp program to see how far along you've gotten.
 
-Note that this will show failures for <code>starC.cpp</code> and <code>starN.cpp</code>, which are files that you'll be working on at a later step.
+Note that this will show failures for <code>starC.cpp</code> and <code>starX.cpp</code>, which are files that you'll be working on at a later step.
 
 You could also just submit the "stubs" for those&mdash;though those will fail some or all of the tests.
 
-Either way, for now, concentrate only on the test failures that pertain to starT.cpp and try to address any problems you encounter.  If you fix these NOW before moving on to starC.cpp and/or starN.cpp, you will likely have better success, because what you learn from fixing your mistakes will help you get those other parts solved more quickly and easily.
+Either way, for now, concentrate only on the test failures that pertain to starT.cpp and try to address any problems you encounter.  If you fix these NOW before moving on to starC.cpp and/or starX.cpp, you will likely have better success, because what you learn from fixing your mistakes will help you get those other parts solved more quickly and easily.
 
 Some rules to keep in mind for the starT function:
 
@@ -268,7 +265,7 @@ Hints: recall that:
 
 Also, for starT.cpp:
 
-* If there are not exactly two command line args after the program name (one for width and one for height), print a usage message:
+* If there are not exactly two command line args after the program name (one for width and one for height), print a usage message to stderr (not stdout):
 
 ```
 Usage: ./starT width height
@@ -301,9 +298,9 @@ When:
 
 then, you are ready to try testing your code on gradescope.
 
-Note that failures for <code>starN.cpp</code> may still show up, but we need not be concerned about those yet.  
+Note that failures for <code>starX.cpp</code> may still show up, but we need not be concerned about those yet.  
 
-Concentrate only on the test failures that pertain to starC.cpp and starT.cpp and try to address any problems you encounter.  Once all of those pass, move on to the starN.cpp program:
+Concentrate only on the test failures that pertain to starC.cpp and starT.cpp and try to address any problems you encounter.  Once all of those pass, move on to the starX.cpp program:
 
 Save the new version of your code with the starT and starC implementation by typing out the following commands:
 
@@ -314,21 +311,18 @@ git push origin master
 ```
 
 
-## Step 4: Writing the starN program
+## Step 4: Writing the starX program
 
-For the starN.cpp program, we have these rules:
+For the starX.cpp program, we have these rules:
 
 * Take only one command line parameter: the width. The height will automatically be set equal to the width.
 
-The starN function follows these rules:
+The starX function follows these rules:
 
-* return a string that draws  the letter Z with the correct width and height, but only if width &gt;=3
+* return a string that draws  the letter X with the correct width and height, but only if width &gt;=3 and odd
 * return an empty string if the value passed in for width is not valid, print nothing at all.
 
-Hints:
-* You might find that writing several "helper functions" is a useful technique in writing your own code.   You may introduce whatever helper functions would be useful to you.
-
-As with starC.cpp, you should add code to starN.cpp so that you are able to invoke the internal tests by typing <code>./starN -1 </code>.  Note that this time, there is only one parameter.
+As with starC.cpp, you should add code to starX.cpp so that you are able to invoke the internal tests by typing <code>./starX -1 </code>.  Note that this time, there is only one parameter.
 
 And, if there is not exactly one parameter, there should be an appropriate "usage" message that follows the pattern of the other programs&mdash;except that there is only a width parameter in this program.
 
@@ -350,7 +344,7 @@ Make sure you do a final *git add ..*, *git commit ...* and *git push ..* to mak
 
 Correctness
 
-* (100 pts) 15 tests, 5-10 points each, executed by the gradescope system
+* (90 pts) executed by the gradescope system
 
 End of lab check off points:
 
