@@ -10,6 +10,9 @@ lecture_date: 2020-01-23
 
 
 
+#Topics
+* Number representation - decimal, binary, hex
+* Conversions
 
 
 
