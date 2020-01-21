@@ -1,6 +1,6 @@
 ---
 annotatedpdfurl: /lectures/CS16_Lecture3_ann.pdf
-annotatedready: false
+annotatedready: true
 desc: Git, Functions, Loops
 lecture_date: 2020-01-14
 num: Lecture 3

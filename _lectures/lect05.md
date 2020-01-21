@@ -3,7 +3,7 @@ annotatedpdfurl: /lectures/CS16_Lecture5_ann.pdf
 annotatedready: true
 num: Lecture 5
 desc: "File IO, Test Driven Development + lab02 practice"
-ready: true
+ready: false
 slides: /lectures/CS16_Lecture5.pdf
 lecture_date: 2020-01-21
 ---
