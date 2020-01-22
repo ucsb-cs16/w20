@@ -2,14 +2,11 @@
 annotatedpdfurl: /lectures/CS16_Lecture7_ann.pdf
 annotatedready: true
 num: Lecture 7
-desc: "Midterm Review and Mid-quarter evals"
+desc: "Data Representation and Mid-quarter evals"
 ready: true
 slides: /lectures/CS16_Lecture7.pdf
 lecture_date: 2020-01-28
 ---
-
-# Code from lecture
-
 
 # Topics
 
