@@ -2,7 +2,7 @@
 annotatedpdfurl: /lectures/CS16_Lecture6_ann.pdf
 annotatedready: true
 num: Lecture 6
-desc: "est Driven Development + lab02 practice"
+desc: "Test Driven Development + lab02 practice"
 ready: true
 slides: /lectures/CS16_Lecture6.pdf
 lecture_date: 2020-01-23
