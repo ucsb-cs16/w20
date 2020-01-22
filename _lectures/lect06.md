@@ -1,6 +1,6 @@
 ---
 annotatedpdfurl: /lectures/CS16_Lecture6_ann.pdf
-annotatedready: true
+annotatedready: false
 num: Lecture 6
 desc: "Test Driven Development + lab02 practice"
 ready: true
