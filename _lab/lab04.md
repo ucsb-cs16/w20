@@ -3,7 +3,7 @@ layout: lab
 num: lab04
 ready: true
 desc: "Odds and primes: Fun with arrays and makefiles"
-assigned: 2020-02-07 09:00:00.00-8
+assigned: 2020-02-03 09:00:00.00-8
 due: 2020-02-14 23:59:00.00-8
 ---
 <div markdown="1">
