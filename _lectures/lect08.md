@@ -1,26 +1,54 @@
 ---
 annotatedpdfurl: /lectures/CS16_Lecture8_ann.pdf
-annotatedready: true
+annotatedready: false
 num: Lecture 8
-desc: "Arrays and Pointers"
+desc: "References and Pointers, Call by value, address and reference"
 ready: true
 slides: /lectures/CS16_Lecture8.pdf
 lecture_date: 2020-02-04
 ---
 
+
+
 # Topics
-This lecture and many of the coming lectures require that we understand how our programs interact with computer memory. This is not required to understanding some of the programming constructs like arrays and pointers but is crucial for reasoning about weird program behavior and debugging. So, we will begin with a model of computer memory and then delve into C++ arrays and pointers
+
+## C++ References
+* Creating aliases with references
 
 
-## C++ arrays
-* Intro to lab04
-* C/C++ arrays are like lists in Python and Arrays in Java. We will discuss the differences between these.
-* Declaring and initializing arrays in C++
-* char arrays, C-strings and string literals
-* Basic operations on C-Strings 
-* String class objects and methods (similarities and differences with c-strings)
-* Iterating through arrays using the C++11 range based for loops
-* Passing arrays to functions
-* Array pitfalls: out of bound array access
+## Pointers
+
+* Pointer declaration - difference/similarities with declaring basic types
+* Accessing variables "indirectly" via pointers
+* The address and indirection operators: "&" and "*"
+* Differences between references and pointers
+* Constant pointers and references, when and why to use them
+* Pointers and arrays - similarities and differences
+* Passing arrays to functions - specifically looking at how arrays degenerate to pointers on function calls.
+
+# The good, bad and ugly about pointers
+
+The good:
+
+* Pointers allow arrays to be passed to functions efficiently
+* Pointers allow arrays of large structs to be traversed effiently
+
+The bad:
+
+* Pointers can only point to one type of data (not generic)
+* They don't automatically point - need to do some work
+
+The ugly
+
+* Bugs in code that involves pointers can cause your program to irrecoverably crash (Segmentation fault)
+* Examples: dereferencing a null pointer, out of bound array access, dereferncing a pointer that has junk value.
+
+
+
+## Call by value, address and reference
+* Understanding the differences via stack diagrams
+* When and why to use each of these
+
+
 
 
