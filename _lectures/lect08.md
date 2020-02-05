@@ -1,6 +1,6 @@
 ---
 annotatedpdfurl: /lectures/CS16_Lecture8_ann.pdf
-annotatedready: false
+annotatedready: true
 num: Lecture 8
 desc: "References and Pointers, Call by value, address and reference"
 ready: true
