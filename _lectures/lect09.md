@@ -1,6 +1,6 @@
 ---
 annotatedpdfurl: /lectures/CS16_Lecture9_ann.pdf
-annotatedready: true
+annotatedready: false
 num: Lecture 9
 desc: "Arrays and Pointers"
 ready: true
