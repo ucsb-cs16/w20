@@ -40,14 +40,6 @@ In addition to the intructor and TA, there are several ULAs in the course who ar
 ## CS 16 Mentor profiles
 
 <table style="width:100%">
-
-  <tr>
-    <td>
-    <img src="/info/mentorPhotos/CS16-W18-Boyuan-Feng.jpg"  width="150px"  alt="" style="float: left; margin: 10px 10px 10px 10px;">
-    <b> (TA)</b>
-    <i> " " </i>
-    </td>
-</tr>
 <tr>
 
   <td>
