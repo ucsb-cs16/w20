@@ -3,8 +3,8 @@ layout: lab
 num: lab05
 ready: true
 desc: "Fun with shapes: Pointers"
-assigned: 2020-02-14 09:00:00.00-8
-due: 2020-02-21 23:59:00.00-8
+assigned: 2020-02-10 09:00:00.00-8
+due: 2020-02-18 23:59:00.00-8
 ---
 <div markdown="1">
 
@@ -86,7 +86,7 @@ Here is a list of your tasks for this lab:
 * Looking at the test code in initPointTest.cpp figure out what the initPoint function is supposed to do and add preconditions and postconditions as comments to the start of that function. See page 275 of the book for more information on writing pre and post conditions.
 * Edit the initPoint function in shapeFuncs.cpp to replace the stub with correct code.
 * Run ./initPointTest and see it pass.
-* Now reason about why your code works. Do this by drawing a pointer diagram that shows the state of memory right before the initPoint function returns when it is called for the very first time by the test code. Your pointer diagram should show the value of member variables x and y of the struct object 'p1' in initPointTest.cpp as well as the relationship between 'p1' and the formal parameter 'p' of the function initPoint. You should also show the formal parameters xVal and yVal in memory and indicate whether or not they are colocated in memory with any other variables (such as x and y). Make the drawing on a piece of paper or as ascii art in a text file and upload it to gradescope with the filename: pointer-diagram-initPoint. The diagram will be graded manually by us.
+* Now reason about why your code works. 
 
 * Run ./boxesApproxEqualTest and see it fail.
 * Edit the boxesApproxEqual function in shapeFuncs.cpp to replace the stub with correct code.  As you do, consider adding an approxEqual function that takes two double values into utility.h and utility.cpp, as this will make your coding job easier, and keep you code "DRYer".  Also, consider reusing the pointsApproxEqual function in your boxesApproxEqual solution.  Remember that the <code>&amp;&amp;</code> operator is the symbol for "logical and" in C++.
