@@ -56,6 +56,13 @@ In addition to the intructor and TA, there are several ULAs in the course who ar
 I also recently switched majors from Computer Engineering to Computer Science, so if you have any questions about switching into CS, please do not hesitate to ask me. If you have any other questions about CS 24, C++, Java, other lower division CS/Math coursework, or even if you just want to chat, please feel free to reach me through Piazza or during open lab hours. I look forward to getting to know all of you!" </i>
   </td>
  </tr>
+ <tr>
+  <td>
+   <img src="/info/mentorPhotos/CS16-W20-Rucha-K.jpg" alt="Rucha" alt="Image" width="150px" style="float: left; margin: 5px 10px 10px 10px;">
+   <b> Rucha Kolhatkar (ULA) </b>
+   <i> "Hi! My name is Rucha and I am a third-year Computer Engineering major. My first Computer Science class that I took here at UCSB was CS16, and that course reassured me that I picked the correct major. Initially I felt that university-level Computer Science courses would be overwhelming, but the professors, TAs, and mentors were very understanding and helped me through every difficulty. Because I have had such amazing mentors and TAs in the past CS courses, I would love to help students learn CS and explain to them concepts that they are having difficulty understanding. I have taken part in research on campus, and I am also a member of IEEE. If you have any questions regarding any material related to CS or CE, or even if you just want to talk to me, feel free to contact me through Piazza or catch me during my lab hours." </i>
+  </td>
+ </tr>
 </table>
 
 
