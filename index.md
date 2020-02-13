@@ -6,6 +6,8 @@ title: "CS16, W20, Mirza"
 
 All announcements will be posted on Piazza [at this link](https://piazza.com/configure-classes/winter2020/cs16w20).
 
+Link to code written in lecture [Section A](https://github.com/ucsb-cs16-mirza/cs16-lectures-sec-A) and [Section B](https://github.com/ucsb-cs16-mirza/cs16-lectures-sec-B)
+
 {% include collapse-button.html label="Information" id="info-list" %}
 
 <div class="collapse" id="info-list">
