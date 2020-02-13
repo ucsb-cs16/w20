@@ -96,6 +96,17 @@ Other than CS my hobbies include playing video games and amateur graphic design.
  </tr>
  <tr>
   <td>
+   <img src="./CS16-W20-Heather-D.jpg" alt="Heather" alt="Image" width="150px" style="float: left; margin: 5px 10px 10px 10px;">
+   <b> Heather Dinh (ULA) </b>
+   <i> "Hi everyone, welcome to CS16! My name is Heather Dinh and I am a first-year Computer Science major. My preferred pronouns are she/her/hers. 
+<br/><br/>
+This is my first time tutoring for this course, and I’m very excited for the opportunity to get to know you all throughout the quarter. My goal is to help each student grasp the underlying concepts of computer programming using C++. CS16 is a great class to build your fundamental understanding of computer science, and will prepare you well for subsequent computer science courses. I took this course last quarter with Professor Mirza, so I’m extremely familiar with the functionality and structuring of the labs; don’t be afraid to approach me with any questions you have during lab! Aside from lab hours, feel free to reach me through Piazza.
+<br/><br/>
+At UCSB, I’m involved in a few different organizations such as Society of Women Engineers and Data Science Club. These are great clubs to meet other STEM majors and connect over a mutual interest, whether it be participating in outreach events or discovering the basics of data visualization.  Aside from on-campus groups, I am part of an intramural basketball team and enjoy playing classical and pop piano in my free time, going to the gym, eating food not from the dining hall, and hanging out with friends. Some general advice for this course: practicing and becoming familiar with the UNIX environment and Github will really make you feel more comfortable writing code for the labs. I know that once I got used to all the commands utilized in these environments (and vim too), the organization of the course made much more sense to me, and the objective of each lab was more clear. If you have any questions, I’m here to help during open lab hours and Piazza. Good luck and hopefully you’ll discover how fun computer science can be!" </i>
+  </td>
+ </tr>
+ <tr>
+  <td>
    <img src="./CS16-W20-Johnson-K.jpg" alt="Johnson" alt="Image" width="150px" style="float: left; margin: 5px 10px 10px 10px;">
    <b> Johnson Ku (ULA) </b>
    <i> "Hello everyone! My name is Johnson Ku and I am currently a 2nd year CS major. My preferred pronouns are he/him/his. This quarter will be my first time tutoring and I am excited to work with you all! 
