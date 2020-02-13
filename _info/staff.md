@@ -42,6 +42,15 @@ In addition to the intructor and TA, there are several ULAs in the course who ar
 <table style="width:100%">
  <tr>
   <td>
+   <img src="./CS16-W20-Cindy-L.jpg" alt="Cindy" alt="Image" width="150px" style="float: left; margin: 5px 10px 10px 10px;">
+   <b> Cindy Lu (ULA) </b>
+   <i> "Hello! My name is Cindy (she/her/hers) and I am a fourth year computer science major. This is my first time tutoring this course and I am looking forward to working with you all! <br/>
+CS16 was the first computer science class I took at UCSB and I believe that it is important to excel in this class because it will prepare you for upcoming cs classes. Having a solid foundation in the concepts you will learn in this class is important as it will definitely aid you in succeeding upper division and elective classes, as well as in the industry. I have had two summer internship experiences, so if you have questions or need advise on applying/internviewing feel free to reach out! I am extremely patient when trying to explain concepts and solve problems, so don't be afraid to approach me with any questions related to the class or about life in general!<br/>
+In my free time, I like to rock climb and run, I also watch a lot of shows (currently watching Succession). One of my goals for this quarter is to watch the sunset everyday and it's been making me appreciate the world more." </i>
+  </td>
+ </tr>
+ <tr>
+  <td>
    <img src="./CS16-W20-Adarsha-P.jpg" alt="Adarsha" alt="Image" width="150px" style="float: left; margin: 5px 10px 10px 10px;">
    <b> Adarsha Poudel (ULA) </b>
    <i> "Hello, everyone. I am Adarsha Poudel(he/him/his). I am originally from a mysterious land of southeast-Asia called Nepal. I moved here two years ago, and now I currently live in Santa Rosa, California(NorCal). I'm a first year CS major planning to minor in math. I am very excited to be tutoring for CS 24. I took CS24 last quarter with Prof.Mirza(she is an amazing professor), and I found it very interesting. It actually changed the way how I used to think about coming up with solutions that just works (but is very inefficient). After learning concepts such as Big-O and data structures such as Binary Trees in CS24, Stack, and Queues; I realized I could write the same solution which works very fast and efficient. I'm sure you guys will also find it interesting eventually. Just to let you know guys, it's actually the first CS course that helps you get trained for the interviews for internships. Outside the class, I try to improve my coding skills by solving mathematical-oriented CS problems in sites such as projectEuler and Hackerank, so I recommend you guys to check it out to see if it sparks some interest on you. This is my first quarter tutoring here, so I'm thrilled to share my knowledge and also improve myself interacting with you guys. If you any questions, please don't hesitate to ask even when you feel like its a stupid question. You can't improve if you leave a concept that you don't know unanswered. Hope, you guys will enjoy the class." </i>
