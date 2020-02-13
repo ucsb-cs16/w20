@@ -44,8 +44,12 @@ In addition to the intructor and TA, there are several ULAs in the course who ar
   <td>
    <img src="./CS16-W20-Cindy-L.jpg" alt="Cindy" alt="Image" width="150px" style="float: left; margin: 5px 10px 10px 10px;">
    <b> Cindy Lu (ULA) </b>
-   <i> "Hello! My name is Cindy (she/her/hers) and I am a fourth year computer science major. This is my first time tutoring this course and I am looking forward to working with you all! <br/>
-CS16 was the first computer science class I took at UCSB and I believe that it is important to excel in this class because it will prepare you for upcoming cs classes. Having a solid foundation in the concepts you will learn in this class is important as it will definitely aid you in succeeding upper division and elective classes, as well as in the industry. I have had two summer internship experiences, so if you have questions or need advise on applying/internviewing feel free to reach out! I am extremely patient when trying to explain concepts and solve problems, so don't be afraid to approach me with any questions related to the class or about life in general!<br/>
+   <i> "Hello! My name is Cindy (she/her/hers) and I am a fourth year computer science major. This is my first time tutoring this course and I am looking forward to working with you all! 
+    <br/>
+    <br/>
+CS16 was the first computer science class I took at UCSB and I believe that it is important to excel in this class because it will prepare you for upcoming cs classes. Having a solid foundation in the concepts you will learn in this class is important as it will definitely aid you in succeeding upper division and elective classes, as well as in the industry. I have had two summer internship experiences, so if you have questions or need advise on applying/internviewing feel free to reach out! I am extremely patient when trying to explain concepts and solve problems, so don't be afraid to approach me with any questions related to the class or about life in general!
+    <br/>
+    <br/>
 In my free time, I like to rock climb and run, I also watch a lot of shows (currently watching Succession). One of my goals for this quarter is to watch the sunset everyday and it's been making me appreciate the world more." </i>
   </td>
  </tr>
@@ -61,6 +65,7 @@ In my free time, I like to rock climb and run, I also watch a lot of shows (curr
    <img src="./CS16-W20-Aesha-P.jpg" alt="Aesha" alt="Image" width="150px" style="float: left; margin: 5px 10px 10px 10px;">
    <b> Aesha Parekh (ULA) </b>
    <i> "Hi, I’m Aesha (pronounced ey-shah, pronouns: she/her/hers)! I’m a first-year Computer Science major originally from the Bay Area. Although this will be my first quarter as a CS Undergrad Tutor, I enjoyed tutoring throughout high school, and I’m excited to be a CS 24 tutor this quarter! I took CS 24 just last quarter, so most of the course material is still fresh to me and I remember a lot of the concepts that I had difficulty with, as well as the questions I had. I know that the transition between courses and the pacing of the quarter system can be challenging, as it is something I experience myself. As a tutor, I hope to help you overcome these obstacles in order to succeed in CS 24 while I get the opportunity to solidify my understanding of this foundational material. I will try my best to help you strengthen your computer science foundation, learn new concepts, and build your problem solving skills this quarter. Besides tutoring, in my free time, I enjoy playing badminton, trying new food, hanging out with friends, reading books, and watching shows/movies.
+    <br/>
     <br/>
 I also recently switched majors from Computer Engineering to Computer Science, so if you have any questions about switching into CS, please do not hesitate to ask me. If you have any other questions about CS 24, C++, Java, other lower division CS/Math coursework, or even if you just want to chat, please feel free to reach me through Piazza or during open lab hours. I look forward to getting to know all of you!" </i>
   </td>
