@@ -72,6 +72,23 @@ I also recently switched majors from Computer Engineering to Computer Science, s
  </tr>
  <tr>
   <td>
+   <img src="./CS16-W20-Roberto-G.jpg" alt="Roberto" alt="Image" width="150px" style="float: left; margin: 5px 10px 10px 10px;">
+   <b> Roberto Gutierrez (ULA) </b>
+   <i> "Hello!  My name is Roberto Gutierrez, and I am a 2nd year CS major.  I have he/him/his pronouns.  I’m thrilled to be tutoring CS16 because it was the first CS course I took here and I generally love helping people understand new things.  
+    <br/>
+    <br/>
+C++ seemed pretty daunting to me when I took CS16 so I’m glad to be a resource for y'all now that I’m more experienced.  It is important you gain a solid grasp of the course’s material in order to have a good foundation for your future courses, especially since C++ is widely used all over the world.  With that being said, don’t be afraid to ask for help!  The other tutors/TAs are more than happy to answer your questions and help you through this class!  I used to always be hesitant to ask for help in my courses, and especially in CS16.  As a result, I ended up underperforming in the class when I could’ve done better.  So take it from me, utilize all your resources so you can do your best!
+    <br/>
+    <br/>
+My skills include both C++ and Java programming as well as an above average understanding of the Windows OS (gained from years of reading tech support forums in search for answers to my families’ tech support questions).  My key interest in Computer Science lies in cyber-security so if you have any questions regarding that or just feel like discussing it I’d be more than happy to talk.
+    <br/>
+    <br/>
+Other than CS my hobbies include playing video games and amateur graphic design.  I also enjoy listening to a plethora of different music so if you have any recommendations let me know!  My favorite tv shows are Brooklyn 99, the Office, Psych, and Breaking Bad and my favorite video games are Super Smash Bros. Ultimate, Hollow Knight, Super Mario Odyssey.
+" </i>
+  </td>
+ </tr>
+ <tr>
+  <td>
    <img src="./CS16-W20-Adarsha-P.jpg" alt="Adarsha" alt="Image" width="150px" style="float: left; margin: 5px 10px 10px 10px;">
    <b> Adarsha Poudel (ULA) </b>
    <i> "Hello, everyone. I am Adarsha Poudel(he/him/his). I am originally from a mysterious land of southeast-Asia called Nepal. I moved here two years ago, and now I currently live in Santa Rosa, California(NorCal). I'm a first year CS major planning to minor in math. I am very excited to be tutoring for CS 24. I took CS24 last quarter with Prof.Mirza(she is an amazing professor), and I found it very interesting. It actually changed the way how I used to think about coming up with solutions that just works (but is very inefficient). After learning concepts such as Big-O and data structures such as Binary Trees in CS24, Stack, and Queues; I realized I could write the same solution which works very fast and efficient. I'm sure you guys will also find it interesting eventually. Just to let you know guys, it's actually the first CS course that helps you get trained for the interviews for internships. Outside the class, I try to improve my coding skills by solving mathematical-oriented CS problems in sites such as projectEuler and Hackerank, so I recommend you guys to check it out to see if it sparks some interest on you. This is my first quarter tutoring here, so I'm thrilled to share my knowledge and also improve myself interacting with you guys. If you any questions, please don't hesitate to ask even when you feel like its a stupid question. You can't improve if you leave a concept that you don't know unanswered. Hope, you guys will enjoy the class." </i>
