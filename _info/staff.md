@@ -96,6 +96,19 @@ Other than CS my hobbies include playing video games and amateur graphic design.
  </tr>
  <tr>
   <td>
+   <img src="./CS16-W20-Johnson-K.jpg" alt="Johnson" alt="Image" width="150px" style="float: left; margin: 5px 10px 10px 10px;">
+   <b> Johnson Ku (ULA) </b>
+   <i> "Hello everyone! My name is Johnson Ku and I am currently a 2nd year CS major. My preferred pronouns are he/him/his. This quarter will be my first time tutoring and I am excited to work with you all! 
+<br/><br/>
+CS16 was the first computer science class I took at UCSB, and it really reaffirmed my decision to come here as a CS major. I learned a lot from this course – a new language, command line usage, and memory allocation just to name a few things. Furthermore, it was taught by a staff that truly cared about the success of the students. I came back as a tutor because I wanted to welcome the students with the same enthusiasm that I received during my first quarter here.
+<br/><br/>
+Over the past year, I have participated in hackathons like SB Hacks and worked on projects involving computer vision and databases. Through these experiences, I have familiarized myself with various tools, such as the Spring Boot framework, the cloud platform Heroku, and several Computer Vision APIs. I have also picked up a couple other programming languages, Java and Python, in the process. Outside of CS, my other hobbies are camping and playing baseball. As a former boy scout, I have been all over California and several other states. Some of my favorite places include Point Reyes, Philmont in New Mexico, and Camp Parsons in Seattle. As for baseball, I grew up watching the two bay teams, the Giants and Athletics. Whenever I get the chance, I still enjoy playing catch and having batting practice with my old teammates. 
+<br/><br/>
+If you have any questions, whether it is about CS courses, hackathons, or even how to prepare for interviews, feel free ask me during section, drop by at open lab hours, or simply post on Piazza. I look forward to getting to know all of you!" </i>
+  </td>
+ </tr>
+ <tr>
+  <td>
    <img src="./CS16-W20-Leron-R.jpg" alt="Leron" alt="Image" width="150px" style="float: left; margin: 5px 10px 10px 10px;">
    <b> Leron Reznikov (ULA) </b>
    <i> "Welcome to CS16! My name is Leron, I’m a second year CS major, and I’m excited to be tutoring this class for the first time! My pronouns are he/him/his. Teaching is one of my passions, and I’ve done various private tutoring jobs before I came to UCSB. I’m glad to have the opportunity to tutor in a more formal setting!
