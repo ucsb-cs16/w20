@@ -42,14 +42,14 @@ In addition to the intructor and TA, there are several ULAs in the course who ar
 <table style="width:100%">
  <tr>
   <td>
-   <img src="/info/mentorPhotos/CS16-W20-Adarsha-P.jpg" alt="Adarsha" alt="Image" width="150px" style="float: left; margin: 5px 10px 10px 10px;">
+   <img src="./CS16-W20-Adarsha-P.jpg" alt="Adarsha" alt="Image" width="150px" style="float: left; margin: 5px 10px 10px 10px;">
    <b> Adarsha Poudel (ULA) </b>
    <i> "Hello, everyone. I am Adarsha Poudel(he/him/his). I am originally from a mysterious land of southeast-Asia called Nepal. I moved here two years ago, and now I currently live in Santa Rosa, California(NorCal). I'm a first year CS major planning to minor in math. I am very excited to be tutoring for CS 24. I took CS24 last quarter with Prof.Mirza(she is an amazing professor), and I found it very interesting. It actually changed the way how I used to think about coming up with solutions that just works (but is very inefficient). After learning concepts such as Big-O and data structures such as Binary Trees in CS24, Stack, and Queues; I realized I could write the same solution which works very fast and efficient. I'm sure you guys will also find it interesting eventually. Just to let you know guys, it's actually the first CS course that helps you get trained for the interviews for internships. Outside the class, I try to improve my coding skills by solving mathematical-oriented CS problems in sites such as projectEuler and Hackerank, so I recommend you guys to check it out to see if it sparks some interest on you. This is my first quarter tutoring here, so I'm thrilled to share my knowledge and also improve myself interacting with you guys. If you any questions, please don't hesitate to ask even when you feel like its a stupid question. You can't improve if you leave a concept that you don't know unanswered. Hope, you guys will enjoy the class." </i>
   </td>
  </tr>
   <tr>
   <td>
-   <img src="/info/mentorPhotos/CS16-W20-Aesha-P.jpg" alt="Aesha" alt="Image" width="150px" style="float: left; margin: 5px 10px 10px 10px;">
+   <img src="./CS16-W20-Aesha-P.jpg" alt="Aesha" alt="Image" width="150px" style="float: left; margin: 5px 10px 10px 10px;">
    <b> Aesha Parekh (ULA) </b>
    <i> "Hi, I’m Aesha (pronounced ey-shah, pronouns: she/her/hers)! I’m a first-year Computer Science major originally from the Bay Area. Although this will be my first quarter as a CS Undergrad Tutor, I enjoyed tutoring throughout high school, and I’m excited to be a CS 24 tutor this quarter! I took CS 24 just last quarter, so most of the course material is still fresh to me and I remember a lot of the concepts that I had difficulty with, as well as the questions I had. I know that the transition between courses and the pacing of the quarter system can be challenging, as it is something I experience myself. As a tutor, I hope to help you overcome these obstacles in order to succeed in CS 24 while I get the opportunity to solidify my understanding of this foundational material. I will try my best to help you strengthen your computer science foundation, learn new concepts, and build your problem solving skills this quarter. Besides tutoring, in my free time, I enjoy playing badminton, trying new food, hanging out with friends, reading books, and watching shows/movies.
     <br/>
@@ -58,7 +58,7 @@ I also recently switched majors from Computer Engineering to Computer Science, s
  </tr>
  <tr>
   <td>
-   <img src="/info/mentorPhotos/CS16-W20-Rucha-K.jpg" alt="Rucha" alt="Image" width="150px" style="float: left; margin: 5px 10px 10px 10px;">
+   <img src="./CS16-W20-Rucha-K.jpg" alt="Rucha" alt="Image" width="150px" style="float: left; margin: 5px 10px 10px 10px;">
    <b> Rucha Kolhatkar (ULA) </b>
    <i> "Hi! My name is Rucha and I am a third-year Computer Engineering major. My first Computer Science class that I took here at UCSB was CS16, and that course reassured me that I picked the correct major. Initially I felt that university-level Computer Science courses would be overwhelming, but the professors, TAs, and mentors were very understanding and helped me through every difficulty. Because I have had such amazing mentors and TAs in the past CS courses, I would love to help students learn CS and explain to them concepts that they are having difficulty understanding. I have taken part in research on campus, and I am also a member of IEEE. If you have any questions regarding any material related to CS or CE, or even if you just want to talk to me, feel free to contact me through Piazza or catch me during my lab hours." </i>
   </td>
