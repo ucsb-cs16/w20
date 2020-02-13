@@ -96,6 +96,18 @@ Other than CS my hobbies include playing video games and amateur graphic design.
  </tr>
  <tr>
   <td>
+   <img src="./CS16-W20-Leron-R.jpg" alt="Leron" alt="Image" width="150px" style="float: left; margin: 5px 10px 10px 10px;">
+   <b> Leron Reznikov (ULA) </b>
+   <i> "Welcome to CS16! My name is Leron, I’m a second year CS major, and I’m excited to be tutoring this class for the first time! My pronouns are he/him/his. Teaching is one of my passions, and I’ve done various private tutoring jobs before I came to UCSB. I’m glad to have the opportunity to tutor in a more formal setting!
+<br/><br/>
+I’m looking forward to helping all of you get acclimated to using C++. I took CS16 last year with prior knowledge only in Java, and getting used to the language definitely took some time and effort. C++ is an extremely powerful programming language, but that makes it a lot easier to make mistakes that are difficult to catch. The transition process can be overwhelming, and it can be hard to stay on top of all of the work required in this class. I hope I can help smooth the process for everyone!
+<br/><br/>
+I’ve also spent the past summer/fall on the search for internships, so if anyone needs help or advice on where to start feel free to reach out, since I know the process is daunting. On campus, I’m on the student board of Hillel (a Jewish organization), and the Outreach Coordinator of the Regents Scholar Association. These activities help me get more connected to the campus community. Outside of school, my main hobby is playing piano. Music is a great way to relax, and is a great way to take your mind off of some challenging programming problems :). I also enjoy board games, going to the gym, and most importantly meeting new people. If you need to reach me, you can message me on Piazza or stop by during any of my open lab hours. I’m super excited to get to know you all throughout this quarter! 
+" </i>
+  </td>
+ </tr>
+ <tr>
+  <td>
    <img src="./CS16-W20-Rucha-K.jpg" alt="Rucha" alt="Image" width="150px" style="float: left; margin: 5px 10px 10px 10px;">
    <b> Rucha Kolhatkar (ULA) </b>
    <i> "Hi! My name is Rucha and I am a third-year Computer Engineering major. My first Computer Science class that I took here at UCSB was CS16, and that course reassured me that I picked the correct major. Initially I felt that university-level Computer Science courses would be overwhelming, but the professors, TAs, and mentors were very understanding and helped me through every difficulty. Because I have had such amazing mentors and TAs in the past CS courses, I would love to help students learn CS and explain to them concepts that they are having difficulty understanding. I have taken part in research on campus, and I am also a member of IEEE. If you have any questions regarding any material related to CS or CE, or even if you just want to talk to me, feel free to contact me through Piazza or catch me during my lab hours." </i>
