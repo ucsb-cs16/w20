@@ -84,6 +84,13 @@ I also recently switched majors from Computer Engineering to Computer Science, s
    <i> "Hi! My name is Rucha and I am a third-year Computer Engineering major. My first Computer Science class that I took here at UCSB was CS16, and that course reassured me that I picked the correct major. Initially I felt that university-level Computer Science courses would be overwhelming, but the professors, TAs, and mentors were very understanding and helped me through every difficulty. Because I have had such amazing mentors and TAs in the past CS courses, I would love to help students learn CS and explain to them concepts that they are having difficulty understanding. I have taken part in research on campus, and I am also a member of IEEE. If you have any questions regarding any material related to CS or CE, or even if you just want to talk to me, feel free to contact me through Piazza or catch me during my lab hours." </i>
   </td>
  </tr>
+ <tr>
+  <td>
+   <img src="./CS16-W20-Eddie-Z.jpg" alt="Eddie" alt="Image" width="150px" style="float: left; margin: 5px 10px 10px 10px;">
+   <b> Eddie Zhang (ULA) </b>
+   <i> "Hi everyone! My name is Eddie Zhang, first year CS major (he/him/his). Hopefully I'll be able to be of use in teaching you some of the stuff in CS16, but it would be even more awesome if I could help you guys with stuff outside of just class! Don't be afraid to ask me some of the more fun stuff in CS like making web apps or games. Although I'm just a first year and don't have too much experience with any of these areas, I think there's still some value that I could contribute for you. Looking forward to an awesome quarter!" </i>
+  </td>
+ </tr>
 </table>
 
 
