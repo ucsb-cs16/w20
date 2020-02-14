@@ -140,6 +140,23 @@ I’ve also spent the past summer/fall on the search for internships, so if anyo
  </tr>
  <tr>
   <td>
+   <img src="./CS16-W20-Michael-Z.jpg" alt="Michael" alt="Image" width="150px" style="float: left; margin: 5px 10px 10px 10px;">
+   <b> Michael Zhang (ULA) </b>
+   <i> "Hi all! My name is Michael (he/him/his) and I’m a 2nd-year CS major!
+<br/><br/>
+CS16 is a fundamental course for future classes and lays the groundwork for your CS future (or other disciplines). I’m excited to help make your experience as wonderful as mine and answer any questions you may have! Piazza’s an excellent way to reach me (or any other tutors/TAs/instructors) and I’ll be sure to respond as soon as I can.
+<br/><br/>
+I understand that the material may be a little overwhelming or difficult, but I’m always free to review lectures and help you grasp any challenging concepts. Don’t be afraid to ask questions on Piazza either! It may be a little intimidating but I’m certain that if you have a lingering question, others in the class have the same concern. After all, it’s best to learn and clear up any confusion rather than ignore a problem (which very well could be important in the future).
+<br/><br/>
+Although searching for an internship may seem daunting, I’m more than happy to give advice and help you practice for technical/behavioral interviews. Internships are a great way to spend a summer (or quarter) honing your skills and explore new places & fields! 
+<br/><br/>
+Outside of CS, I’m always open to discuss just about anything – from course planning to sports to research. I’m an avid fan of Star Wars & I love to binge watch TV shows in my spare time – so anytime you want to debate the politics of intergalactic trade in the Empire, let me know! I also played basketball in high school and follow the NBA religiously; growing up in the Bay, I’m a natural Warriors fan, but I’ll manage if you’re a Lakers fan.
+<br/><br/>
+Whether you want to clarify a few questions before an exam or just chat about anything in general, feel free to talk to me at any time!" </i>
+  </td>
+ </tr>
+ <tr>
+  <td>
    <img src="./CS16-W20-Rucha-K.jpg" alt="Rucha" alt="Image" width="150px" style="float: left; margin: 5px 10px 10px 10px;">
    <b> Rucha Kolhatkar (ULA) </b>
    <i> "Hi! My name is Rucha and I am a third-year Computer Engineering major. My first Computer Science class that I took here at UCSB was CS16, and that course reassured me that I picked the correct major. Initially I felt that university-level Computer Science courses would be overwhelming, but the professors, TAs, and mentors were very understanding and helped me through every difficulty. Because I have had such amazing mentors and TAs in the past CS courses, I would love to help students learn CS and explain to them concepts that they are having difficulty understanding. I have taken part in research on campus, and I am also a member of IEEE. If you have any questions regarding any material related to CS or CE, or even if you just want to talk to me, feel free to contact me through Piazza or catch me during my lab hours." </i>
