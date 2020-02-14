@@ -21,15 +21,6 @@ lecture_date: 2020-01-23
 
 
 
-## Automate the compilation of code using makefiles
-
-* [read about Makefile](https://foo.cs.ucsb.edu/16wiki/index.php/C%2B%2B:_Separate_Compilation_and_Makefiles)
-* Compile-time errors
-* Linker errors
-* Header guards
-* Refer to Professor Wang's detailed notes on makefiles: [https://ucsb-cs32.github.io/f19/lectures/lect01/](https://ucsb-cs32.github.io/f19/lectures/lect01/)
-
-
 ## Lesson plan
 
 * We will start with the code that we wrote earlier for drawing shapes and testing the functions we wrote with our home grown test framework
