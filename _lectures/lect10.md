@@ -1,5 +1,5 @@
 ---
-annotatedready: false
+annotatedready: true
 num: Lecture 10
 desc: "Defining custom types with structs, intro to lab05"
 ready: true
