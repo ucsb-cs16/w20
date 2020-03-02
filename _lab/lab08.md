@@ -18,6 +18,10 @@ If you are using a style different from what is recommended and feel strongly ab
 If you are using any instructor written code or hints from a previous offering of this course, cite your source. Remember that code that is not written by you is in violation of the academic honesty for this class.
 
 
+## Extra credit survey (1%)
+Please fill out this survey by the lab due date to receive 1% EC to your overall grade in the course:
+[https://ucsb.co1.qualtrics.com/jfe/form/SV_0qVnEcqYnx9AJkV](https://ucsb.co1.qualtrics.com/jfe/form/SV_0qVnEcqYnx9AJkV)
+
 # Step by Step Instructions: PLEASE READ CAREFULLY!
 
 ## Step 1: Getting Started
