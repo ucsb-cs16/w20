@@ -3,8 +3,8 @@ layout: lab
 num: lab08
 ready: true
 desc: "Recursion"
-assigned: 2020-03-03 09:00:00.00-8
-due: 2020-03-10 23:59:00.00-8
+assigned: 2020-03-02 09:00:00.00-8
+due: 2020-03-12 23:59:00.00-8
 ---
 
 # Goals of this lab
