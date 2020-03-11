@@ -41,7 +41,7 @@ Following the Chancellor's email on March 10, all in person office hours and lab
 3. Open the zoom application on your desktop.
 4. Click on join a meeting. 
 5. Enter the meeting ID for your TA/LA's office hour. You can find the office hour times and the meeting IDs below:
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTADNpdHFLuj28xrdJe3G1atvRi7Mf8P5RuyJeeXet9NRZRr5DNajAkoYUXDsJVy_CDMTBlWhYoh6hL/pubhtml?widget=true&amp;headers=false"></iframe>
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTADNpdHFLuj28xrdJe3G1atvRi7Mf8P5RuyJeeXet9NRZRr5DNajAkoYUXDsJVy_CDMTBlWhYoh6hL/pubhtml?widget=true&amp;headers=false" style="border-width:0" width="1000" height="600" frameborder="0" scrolling="no"></iframe>
 
 
 ## Lectures and Labs
