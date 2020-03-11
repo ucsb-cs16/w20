@@ -9,25 +9,13 @@ ready: true
 ## Course instructor: Diba Mirza
 * email: diba [at] ucsb [dot] edu, but please use Piazza for course-related communication. You can send private messages on Piazza to either the entire course staff or directly to me. If you must email me using my email address, please write [CS16] in the subject line
  
-* Office hours: Mondays 2p - 3p, Wednesdays 1p - 3p in HFH 1155 (starting 1/9) Or by appointment
 
 ## Course TAs
 * {{site.ta_names}}
 * Contact via Piazza.
 
-## TA and tutor Office hours and lab hours
-* Yun Zhao: Mondays 9a - 11a
-* Yuke Wang: Tuesdays 10a - noon
-* Aarti Jivrajani: Wednesdays 2p - 3p
-* Luis Larios Cardenas: Thursdays 11a - 1p
-* Yang Zhou: Fridays 10a to 12p
-
-Location for TA office hours: Trailer 936 (small purple box in the picture below):
-
-![trailer 936 location](image.png){:height="400px"}
-
 ## Undergraduate Learning Assistants (ULA)
-In addition to the intructor and TA, there are several ULAs in the course who are available to assist you during your scheduled lab sections (also called closed labs) and by holding additional help hours outside of sections (also called open-labs). The closed-labs are only available to students registered for that lab section on GOLD. The open-labs are available to all students registered in the course (similar to office hours). Below is the schedule for ULA closed and open lab hours:
+In addition to the intructor and TA, there are several ULAs in the course who are available to assist you during your scheduled lab sections (also called closed labs) and by holding additional help hours outside of sections (also called open-labs). The closed-labs are only available to students registered for that lab section on GOLD. The open-labs are available to all students registered in the course (similar to office hours). Note that we are switching all in-person closed and open labs to online office hours (see below)
 
 
 ## Online office hours via zoom starting March 11 (Wed)
